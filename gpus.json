@@ -1,0 +1,3085 @@
+{
+  "collection": "wikipedia_gpu_metadata",
+  "source": "Wikipedia (MediaWiki API + HTML parsing)",
+  "generated_at_utc": "2025-12-31T08:25:52.224566+00:00",
+  "count": 35,
+  "items": [
+    {
+      "gpu_name": "ATI Rage",
+      "manufacturer": "AMD",
+      "architecture": "Rage",
+      "specs": {
+        "vram": null,
+        "bus_width": null,
+        "core_clock": null,
+        "memory_type": null,
+        "tdp": null
+      },
+      "release_date": "1996 ; 29 years ago ( 1996 )",
+      "benchmarks": {
+        "tables_preview": [
+          {
+            "headers": [
+              "Model",
+              "Launch",
+              "GPU arch",
+              "Fab ( nm )",
+              "Bus interface",
+              "Core clock ( MHz )",
+              "Memory clock (MHz)",
+              "Core config 1",
+              "Fillrate",
+              "Memory",
+              "Performance (FLOPS)",
+              "TDP (Watts)",
+              "API compliance"
+            ],
+            "rows_preview": [
+              [
+                "MOperations/s",
+                "MPixels/s",
+                "MTexels/s",
+                "MVertices/s",
+                "Size ( MiB )",
+                "Bandwidth ( GB /s)",
+                "Bus type",
+                "Bus width ( bit )",
+                "Direct3D",
+                "OpenGL"
+              ],
+              [
+                "3D Rage",
+                "April 1996 [ 7 ]",
+                "Mach64",
+                "500",
+                "PCI",
+                "40",
+                "40",
+                "1:0:1:1",
+                "40",
+                "40",
+                "40",
+                "0",
+                "2",
+                "0.32",
+                "EDO",
+                "64",
+                "?",
+                "?",
+                "5.0",
+                "None 2"
+              ],
+              [
+                "3D Rage II",
+                "September 1996",
+                "Mach64 (Rage2 for Rage IIc)",
+                "AGP 1× (Rage IIc only), PCI",
+                "60",
+                "83 (66 MHz with EDO)",
+                "60",
+                "60",
+                "60",
+                "2, 4, 8",
+                "0.664",
+                "EDO, SGRAM, SDR",
+                "?",
+                "?"
+              ]
+            ]
+          }
+        ]
+      },
+      "source_url": "https://en.wikipedia.org/wiki/ATI_Rage",
+      "scraped_at_utc": "2025-12-31T08:24:08.088447+00:00"
+    },
+    {
+      "gpu_name": "AMD FirePro",
+      "manufacturer": "AMD",
+      "architecture": null,
+      "specs": {
+        "vram": null,
+        "bus_width": null,
+        "core_clock": null,
+        "memory_type": null,
+        "tdp": null
+      },
+      "release_date": null,
+      "benchmarks": {
+        "tables_preview": [
+          {
+            "headers": [
+              "Model",
+              "Launch",
+              "Micro-archi-tecture",
+              "Core",
+              "Fab (nm)",
+              "Bus interface",
+              "Core clock (MHz)",
+              "Memory clock (MHz)",
+              "Core config",
+              "Fillrate",
+              "Memory",
+              "Processing power ( GFLOPS )",
+              "API compliance (version)",
+              "Notes"
+            ],
+            "rows_preview": [
+              [
+                "Pixel ( GP /s)",
+                "Texture ( GT /s)",
+                "Size ( MB )",
+                "Bandwidth ( GB /s)",
+                "Bus type",
+                "Bus width ( bit )",
+                "Single precision",
+                "Direct3D",
+                "OpenGL",
+                "Vulkan"
+              ],
+              [
+                "FireGL 8700",
+                "2001",
+                "R200",
+                "Radeon 8500",
+                "150",
+                "AGP",
+                "250",
+                "270",
+                "2:4:8:4 1",
+                "1",
+                "2",
+                "64",
+                "8.64",
+                "DDR",
+                "64 × 2",
+                "Unknown",
+                "8.1",
+                "1.4",
+                "— N/a",
+                ""
+              ],
+              [
+                "FireGL 8800",
+                "2001",
+                "R200",
+                "Radeon 8500",
+                "150",
+                "AGP",
+                "300",
+                "290",
+                "2:4:8:4 1",
+                "1.2",
+                "2.4",
+                "128",
+                "9.28",
+                "DDR",
+                "64 × 2",
+                "Unknown",
+                "8.1",
+                "1.4",
+                ""
+              ]
+            ]
+          },
+          {
+            "headers": [
+              "Model",
+              "Launch",
+              "Micro-archi-tecture",
+              "Code name",
+              "Fab (nm)",
+              "Transistors (million)",
+              "Die size ( mm 2 )",
+              "Bus interface",
+              "Clock rate",
+              "Core config 1",
+              "Fillrate",
+              "Memory",
+              "Processing power ( GFLOPS )",
+              "API compliance (version)",
+              "TDP (Watts)",
+              "Notes"
+            ],
+            "rows_preview": [
+              [
+                "Core (MHz)",
+                "Memory (MHz)",
+                "Pixel ( GP /s)",
+                "Texture ( GT /s)",
+                "Size ( MB )",
+                "Bandwidth ( GB /s)",
+                "Bus type",
+                "Bus width ( bit )",
+                "Single precision",
+                "Double precision",
+                "Direct3D",
+                "OpenGL",
+                "OpenCL",
+                "Vulkan"
+              ],
+              [
+                "FirePro 3D V3700 [ 27 ]",
+                "August 8, 2008",
+                "Terascale 1",
+                "RV620 PRO [ 28 ]",
+                "55",
+                "181",
+                "67",
+                "PCIe 2.0 x16",
+                "800",
+                "950",
+                "40(8×5):4:4:2",
+                "3.2",
+                "3.2",
+                "256",
+                "15.2",
+                "GDDR3",
+                "64",
+                "64",
+                "-",
+                "10.1",
+                "3.3 SM4.1",
+                "APP Stream only",
+                "— N/a",
+                "32",
+                "UVD+, PowerPlay"
+              ],
+              [
+                "FirePro 3D V3750 [ 29 ]",
+                "September 11, 2008",
+                "Terascale 1",
+                "RV730 PRO",
+                "55",
+                "514",
+                "146",
+                "PCIe 2.0 x16",
+                "550",
+                "750",
+                "320(64×5):32:8:4",
+                "4.4",
+                "17.6",
+                "256",
+                "24",
+                "GDDR3",
+                "128",
+                "352",
+                "-",
+                "10.1",
+                "3.3",
+                "1.0",
+                "48",
+                "UVD2, PowerPlay"
+              ]
+            ]
+          }
+        ]
+      },
+      "source_url": "https://en.wikipedia.org/wiki/AMD_FirePro",
+      "scraped_at_utc": "2025-12-31T08:24:14.221528+00:00"
+    },
+    {
+      "gpu_name": "GeForce 10 series",
+      "manufacturer": "NVIDIA",
+      "architecture": "Pascal",
+      "specs": {
+        "vram": null,
+        "bus_width": null,
+        "core_clock": null,
+        "memory_type": null,
+        "tdp": null
+      },
+      "release_date": "May 27, 2016 ; 9 years ago ( May 27, 2016 )",
+      "benchmarks": {
+        "tables_preview": [
+          {
+            "headers": [
+              "Model",
+              "Launch",
+              "Code name (s)",
+              "Fab ( nm )",
+              "Transistors (billion)",
+              "Die size ( mm 2 )",
+              "Bus interface",
+              "Core config [ c ]",
+              "SM count [ d ]",
+              "L2 cache ( KB )",
+              "Clock speeds [ e ]",
+              "Fillrate [ f ] [ g ]",
+              "Memory [ e ]",
+              "Processing power ( GFLOPS ) [ h ]",
+              "TDP ( watts )",
+              "SLI HB support [ i ]",
+              "Launch MSRP ( USD )"
+            ],
+            "rows_preview": [
+              [
+                "Base core clock ( MHz )",
+                "Boost core clock ( MHz )",
+                "Memory ( MT/s )",
+                "Pixel ( GP /s)",
+                "Texture ( GT /s)",
+                "Size ( GB )",
+                "Bandwidth ( GB /s)",
+                "Type",
+                "Bus width ( bit )",
+                "Single precision (boost)",
+                "Double precision (boost)",
+                "Half precision (boost) [ 21 ]",
+                "Standard",
+                "Founders Edition"
+              ],
+              [
+                "GeForce GT 1010 (DDR4) [ j ] [ 22 ] [ 23 ] [ 24 ]",
+                "Jun 7, 2022",
+                "GP108-200-A1",
+                "14",
+                "1.8",
+                "74",
+                "PCIe 3.0 ×4",
+                "256:16:16",
+                "2",
+                "256",
+                "1151",
+                "1379",
+                "2100",
+                "18.42",
+                "18.42",
+                "2",
+                "16.8",
+                "DDR4",
+                "64",
+                "589.3 (706.1)",
+                "24.56 (29.42)",
+                "— N/a",
+                "20",
+                "No",
+                "?",
+                "— N/a"
+              ],
+              [
+                "GeForce GT 1010 [ j ] [ 25 ] [ 26 ]",
+                "Jan 13, 2021",
+                "GP108-200-A1",
+                "1228",
+                "1468",
+                "5000",
+                "23.49",
+                "23.49",
+                "40.1",
+                "GDDR5",
+                "629 (752)",
+                "26.2 (31.3)",
+                "30",
+                "70 [ 27 ]"
+              ]
+            ]
+          },
+          {
+            "headers": [
+              "Model",
+              "Launch",
+              "Code name (s)",
+              "Fab ( nm )",
+              "Transistors (billion)",
+              "Die size ( mm 2 )",
+              "Bus interface",
+              "Core config [ a ]",
+              "SM Count [ b ]",
+              "L2 cache ( MB )",
+              "Clock speeds",
+              "Fillrate [ c ] [ d ]",
+              "Memory",
+              "Processing power ( GFLOPS ) [ e ]",
+              "TDP ( watts )"
+            ],
+            "rows_preview": [
+              [
+                "Base core clock ( MHz )",
+                "Boost core clock ( MHz )",
+                "Memory ( MT/s )",
+                "Pixel ( GP /s)",
+                "Texture ( GT /s)",
+                "Size ( GB )",
+                "Bandwidth ( GB /s)",
+                "Type",
+                "Bus width ( bit )",
+                "Single precision (Boost)",
+                "Double precision (Boost)",
+                "Half precision (Boost)"
+              ],
+              [
+                "GeForce MX110 [ f ] [ 57 ] [ 58 ]",
+                "Nov 17, 2017",
+                "GM108 (N16V-GMR1)",
+                "28",
+                "?",
+                "?",
+                "PCIe 3.0 ×4",
+                "384:24:8",
+                "3",
+                "1.0",
+                "965",
+                "993",
+                "1800 (DDR3) 5000 (GDDR5)",
+                "7.944",
+                "23.83",
+                "2",
+                "14.4 (DDR3) 40.1 (GDDR5)",
+                "DDR3 GDDR5",
+                "64",
+                "741.1 (762.6)",
+                "23.16 (23.83)",
+                "— N/a",
+                "30"
+              ],
+              [
+                "GeForce MX130 [ f ] [ 59 ] [ 60 ]",
+                "GM108 (N16S-GTR)",
+                "1122",
+                "1242",
+                "9.936",
+                "29.81",
+                "861.7 (953.9)",
+                "26.93 (29.81)"
+              ]
+            ]
+          }
+        ]
+      },
+      "source_url": "https://en.wikipedia.org/wiki/GeForce_10_series",
+      "scraped_at_utc": "2025-12-31T08:24:15.904656+00:00"
+    },
+    {
+      "gpu_name": "GeForce GTX 16 series",
+      "manufacturer": "NVIDIA",
+      "architecture": "Turing",
+      "specs": {
+        "vram": null,
+        "bus_width": null,
+        "core_clock": null,
+        "memory_type": null,
+        "tdp": null
+      },
+      "release_date": "February 22, 2019 ; 6 years ago ( 2019-02-22 )",
+      "benchmarks": {
+        "tables_preview": [
+          {
+            "headers": [
+              "Model",
+              "Launch",
+              "Launch price (USD)",
+              "Code name (s)",
+              "Transistors (billion)",
+              "Die size ( mm 2 )",
+              "Core config [ b ]",
+              "L2 cache ( MB )",
+              "Clock speeds [ c ]",
+              "Fillrate [ d ] [ e ]",
+              "Memory",
+              "Processing power ( GFLOPS )",
+              "TDP"
+            ],
+            "rows_preview": [
+              [
+                "Core ( MHz )",
+                "Memory ( GT/s )",
+                "Pixel ( Gpx /s)",
+                "Texture ( Gtex /s)",
+                "Size ( GB )",
+                "Band- width ( GB /s)",
+                "Type",
+                "Bus width ( bit )",
+                "Half precision (boost)",
+                "Single precision (boost)",
+                "Double precision (boost)"
+              ],
+              [
+                "GeForce GTX 1630 [ 12 ] [ 13 ]",
+                "Jun 28, 2022",
+                "?",
+                "TU117-150",
+                "4.7",
+                "200",
+                "512:32:16 8 SM",
+                "1",
+                "1740 (1785)",
+                "12.0",
+                "27.84 (28.56)",
+                "55.68 (57.12)",
+                "4",
+                "96",
+                "GDDR6",
+                "64",
+                "3564 (3656)",
+                "1782 (1828)",
+                "55.68 (57.12)",
+                "75 W"
+              ],
+              [
+                "GeForce GTX 1650 [ 11 ] [ 14 ] [ 15 ] [ 16 ]",
+                "Apr 23, 2019",
+                "149 [ 17 ]",
+                "TU117-300",
+                "896:56:32 14 SM",
+                "1485 (1665)",
+                "8.0",
+                "47.52 (53.28)",
+                "83.16 (93.24)",
+                "128",
+                "GDDR5",
+                "128",
+                "5322 (5967)",
+                "2661 (2984)",
+                "83.16 (93.24)"
+              ]
+            ]
+          },
+          {
+            "headers": [
+              "Model",
+              "Launch",
+              "Code name (s)",
+              "Transistors (billion)",
+              "Die size ( mm 2 )",
+              "Core config [ b ]",
+              "L2 cache ( MB )",
+              "Clock speeds [ c ]",
+              "Fillrate [ d ] [ e ]",
+              "Memory",
+              "Processing power ( GFLOPS )",
+              "TDP"
+            ],
+            "rows_preview": [
+              [
+                "Core ( MHz )",
+                "Memory ( GT/s )",
+                "Pixel ( Gpx /s)",
+                "Texture ( Gtex /s)",
+                "Size ( GB )",
+                "Band- width ( GB /s)",
+                "Type",
+                "Bus width ( bit )",
+                "Half precision (boost)",
+                "Single precision (boost)",
+                "Double precision (boost)"
+              ],
+              [
+                "GeForce GTX 1650 Max-Q (Laptop) [ 29 ] [ 30 ] [ 31 ] [ 32 ]",
+                "Apr 23, 2019",
+                "TU117-750 [ 33 ] (N18P-G0-MP)",
+                "4.7",
+                "200",
+                "1024:64:32 16 SM",
+                "1",
+                "1020 (1245)",
+                "8.0",
+                "32.64 (39.84)",
+                "65.28 (79.68)",
+                "4",
+                "128",
+                "GDDR5",
+                "128",
+                "4178 (5100)",
+                "2089 (2550)",
+                "65.28 (79.68)",
+                "35 W"
+              ],
+              [
+                "Apr 15, 2020 [ 34 ]",
+                "TU117-753 [ 35 ] (N18P-G61-MP2)",
+                "930 (1125)",
+                "12.0",
+                "29.76 (36.00)",
+                "59.52 (72.00)",
+                "192",
+                "GDDR6",
+                "3809 (4608)",
+                "1905 (2304)",
+                "59.52 (72.00)",
+                "30 W"
+              ]
+            ]
+          }
+        ]
+      },
+      "source_url": "https://en.wikipedia.org/wiki/GeForce_GTX_16_series",
+      "scraped_at_utc": "2025-12-31T08:24:18.389848+00:00"
+    },
+    {
+      "gpu_name": "GeForce RTX 20 series",
+      "manufacturer": "NVIDIA",
+      "architecture": "Turing Ampere (only RTX 2050 Mobile)",
+      "specs": {
+        "vram": null,
+        "bus_width": null,
+        "core_clock": null,
+        "memory_type": null,
+        "tdp": null
+      },
+      "release_date": "September 20, 2018 ; 7 years ago ( 2018-09-20 ) July 9, 2019 ; 6 years ago ( 2019-07-09 ) (Super refresh)",
+      "benchmarks": {
+        "tables_preview": [
+          {
+            "headers": [
+              "Model",
+              "Launch date",
+              "Launch MSRP ( USD )",
+              "Code name (s) [ 50 ]",
+              "Transistors (billion)",
+              "Die size ( mm 2 )",
+              "Core config [ b ]",
+              "SM count [ c ]",
+              "L2 cache",
+              "Clock speeds [ d ]",
+              "Fillrate [ e ] [ f ]",
+              "Memory",
+              "Processing power ( TFLOPS )",
+              "Ray tracing performance",
+              "TDP",
+              "NVLink support"
+            ],
+            "rows_preview": [
+              [
+                "Core ( MHz )",
+                "Memory ( MT/s )",
+                "Pixel ( GP /s)",
+                "Texture ( GT /s)",
+                "Size",
+                "Bandwidth ( GB /s)",
+                "Bus width",
+                "Half precision (boost)",
+                "Single precision (boost)",
+                "Double precision (boost)",
+                "Rays/s (billions)",
+                "RTX-OPS (trillions)",
+                "Tensor TFLOPS"
+              ],
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "GeForce RTX 2060 [ 51 ] [ 52 ]",
+                "Jan 15, 2019",
+                "349",
+                "TU106-200A",
+                "10.8",
+                "445",
+                "1920 120:48:30:240",
+                "30",
+                "3 MB",
+                "1365 (1680)",
+                "14000",
+                "65.52",
+                "163.8",
+                "6 GB",
+                "336",
+                "192-bit",
+                "10.483 (12.902)",
+                "5.242 (6.451)",
+                "0.164 (0.202)",
+                "5",
+                "37",
+                "51.6",
+                "160 W",
+                "No"
+              ]
+            ]
+          },
+          {
+            "headers": [
+              "Model",
+              "Launch",
+              "Code name (s)",
+              "Transistors (billion)",
+              "Die size ( mm 2 )",
+              "Core config [ b ]",
+              "SM count [ c ]",
+              "L2 cache",
+              "Clock speeds [ d ]",
+              "Fillrate [ e ] [ f ]",
+              "Memory",
+              "Processing power ( TFLOPS )",
+              "Ray tracing performance",
+              "TDP"
+            ],
+            "rows_preview": [
+              [
+                "Core ( MHz )",
+                "Memory ( MT/s )",
+                "Pixel ( GP /s)",
+                "Texture ( GT /s)",
+                "Size",
+                "Bandwidth ( GB /s)",
+                "Bus width",
+                "Half precision (boost)",
+                "Single precision (boost)",
+                "Double precision (boost)",
+                "Rays/s (billions)",
+                "RTX-OPS (trillions)"
+              ],
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "GeForce RTX 2050 [ 60 ] [ 61 ] [ 62 ] [ 63 ]",
+                "Dec 17, 2021",
+                "GA107 (GN20-S7)",
+                "8.7",
+                "200",
+                "2048 64:32:32:256",
+                "16",
+                "2 MB",
+                "1155 (1477)",
+                "14000",
+                "47.26",
+                "94.53",
+                "4 GB",
+                "112",
+                "64-bit",
+                "(12.10)",
+                "(6.050)",
+                "(0.189)",
+                "?",
+                "?",
+                "30–45 W"
+              ]
+            ]
+          }
+        ]
+      },
+      "source_url": "https://en.wikipedia.org/wiki/GeForce_RTX_20_series",
+      "scraped_at_utc": "2025-12-31T08:24:21.392685+00:00"
+    },
+    {
+      "gpu_name": "GeForce RTX 30 series",
+      "manufacturer": "NVIDIA",
+      "architecture": "Ampere",
+      "specs": {
+        "vram": null,
+        "bus_width": null,
+        "core_clock": null,
+        "memory_type": null,
+        "tdp": null
+      },
+      "release_date": "September 17, 2020 ; 5 years ago ( 2020-09-17 )",
+      "benchmarks": {
+        "tables_preview": [
+          {
+            "headers": [
+              "Model",
+              "Launch",
+              "Launch MSRP (USD)",
+              "Code name (s) [ b ]",
+              "Transistors (billion)",
+              "Die size ( mm 2 )",
+              "Core config [ c ]",
+              "SM count [ d ]",
+              "L2 cache ( MB )",
+              "Clock speeds [ e ]",
+              "Fillrate [ f ] [ g ]",
+              "Memory",
+              "Processing power ( TFLOPS ) [ h ]",
+              "TDP ( watts )"
+            ],
+            "rows_preview": [
+              [
+                "Core ( MHz )",
+                "Memory ( GT/s ) [ i ]",
+                "Pixel ( Gpx /s)",
+                "Texture ( Gtex /s)",
+                "Size ( GB )",
+                "Band- width ( GB /s)",
+                "Type",
+                "Bus width ( bit )",
+                "Half (boost)",
+                "Single (boost)",
+                "Double (boost)",
+                "Tensor compute [sparse]"
+              ],
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "GeForce RTX 3050 [ 41 ] [ 42 ] [ 43 ] [ 44 ] [ 45 ]",
+                "Feb 2, 2024",
+                "169",
+                "GA107-325",
+                "8.7",
+                "200",
+                "2304 72:32:18:72",
+                "18",
+                "2",
+                "1042 (1470)",
+                "14",
+                "33.34 (47.04)",
+                "75.02 (105.8)",
+                "6",
+                "168",
+                "GDDR6",
+                "96",
+                "4.802 (6.774)",
+                "4.802 (6.774)",
+                "0.075 (0.105)",
+                "30.1 [60.2]",
+                "70"
+              ]
+            ]
+          }
+        ]
+      },
+      "source_url": "https://en.wikipedia.org/wiki/GeForce_RTX_30_series",
+      "scraped_at_utc": "2025-12-31T08:24:23.235359+00:00"
+    },
+    {
+      "gpu_name": "GeForce RTX 40 series",
+      "manufacturer": "NVIDIA",
+      "architecture": "Ada Lovelace",
+      "specs": {
+        "vram": null,
+        "bus_width": null,
+        "core_clock": null,
+        "memory_type": null,
+        "tdp": null
+      },
+      "release_date": "October 12, 2022 ; 3 years ago ( 2022-10-12 ) January 17, 2024 ; 23 months ago ( 2024-01-17 ) (Super refresh)",
+      "benchmarks": {
+        "tables_preview": [
+          {
+            "headers": [
+              "Model",
+              "Launch",
+              "Launch MSRP (USD)",
+              "Code name (s)",
+              "Transistors (billion)",
+              "Die size ( mm 2 )",
+              "Core config [ b ]",
+              "SM count [ c ]",
+              "L2 cache ( MB )",
+              "Clock speeds [ d ]",
+              "Fillrate [ e ] [ f ]",
+              "Memory",
+              "Processing power ( TFLOPS )",
+              "TDP"
+            ],
+            "rows_preview": [
+              [
+                "Core clock ( MHz )",
+                "Memory ( Gb/s )",
+                "Pixel ( Gpx /s)",
+                "Texture ( Gtex /s)",
+                "Size ( GB )",
+                "Band- width ( GB /s)",
+                "Bus width ( bit )",
+                "Half (boost)",
+                "Single (boost)",
+                "Double (boost)",
+                "Tensor compute (sparse)"
+              ],
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "GeForce RTX 4060 [ 59 ] [ 60 ] [ 61 ]",
+                "Jun 29, 2023",
+                "299",
+                "AD107-400",
+                "18.9",
+                "146",
+                "3072 96:48:24:96",
+                "24",
+                "24",
+                "1830 (2460)",
+                "17",
+                "58.6 (78.7)",
+                "175.7 (236.2)",
+                "8",
+                "272",
+                "128",
+                "(15.11)",
+                "(15.11)",
+                "(0.236)",
+                "",
+                "115 W"
+              ]
+            ]
+          }
+        ]
+      },
+      "source_url": "https://en.wikipedia.org/wiki/GeForce_RTX_40_series",
+      "scraped_at_utc": "2025-12-31T08:24:26.799435+00:00"
+    },
+    {
+      "gpu_name": "AMD Hybrid Graphics",
+      "manufacturer": "AMD",
+      "architecture": null,
+      "specs": {
+        "vram": null,
+        "bus_width": null,
+        "core_clock": null,
+        "memory_type": null,
+        "tdp": null
+      },
+      "release_date": null,
+      "benchmarks": {
+        "tables_preview": [
+          {
+            "headers": [
+              "Mode",
+              "Plugged to AC power?",
+              "On-board IGP",
+              "discrete AXIOM /MXM GPU module(s)",
+              "Default PowerPlay power settings"
+            ],
+            "rows_preview": [
+              [
+                "AC Mode",
+                "Yes",
+                "Off",
+                "On",
+                "\"Maximum performance\""
+              ],
+              [
+                "DC Mode",
+                "No",
+                "On",
+                "Off",
+                "\"Maximum battery life\""
+              ]
+            ]
+          }
+        ]
+      },
+      "source_url": "https://en.wikipedia.org/wiki/AMD_Hybrid_Graphics",
+      "scraped_at_utc": "2025-12-31T08:24:28.822935+00:00"
+    },
+    {
+      "gpu_name": "Intel 810",
+      "manufacturer": "Intel",
+      "architecture": null,
+      "specs": {
+        "vram": null,
+        "bus_width": null,
+        "core_clock": null,
+        "memory_type": null,
+        "tdp": null
+      },
+      "release_date": null,
+      "benchmarks": null,
+      "source_url": "https://en.wikipedia.org/wiki/Intel_810",
+      "scraped_at_utc": "2025-12-31T08:24:30.310761+00:00"
+    },
+    {
+      "gpu_name": "Intel Arc",
+      "manufacturer": "Intel",
+      "architecture": "Intel Xe",
+      "specs": {
+        "vram": null,
+        "bus_width": null,
+        "core_clock": null,
+        "memory_type": null,
+        "tdp": null
+      },
+      "release_date": "March 30, 2022 ( 2022-03-30 ) [ 1 ]",
+      "benchmarks": {
+        "tables_preview": [
+          {
+            "headers": [
+              "Quality preset [ a ]",
+              "Scale factor [ b ]",
+              "Render scale [ c ]",
+              "Scale factor [ b ] (1.0-1.2)",
+              "Render scale [ c ] (1.0-1.2)"
+            ],
+            "rows_preview": [
+              [
+                "Native Anti-Aliasing (since 1.3)",
+                "1.00x (since 1.3)",
+                "100%",
+                "N/A"
+              ],
+              [
+                "Ultra Quality Plus (since 1.3)",
+                "1.30x (since 1.3)",
+                "77.0%"
+              ],
+              [
+                "Ultra Quality",
+                "1.50× (since 1.3)",
+                "66.7%",
+                "1.30x",
+                "77.0%"
+              ]
+            ]
+          }
+        ]
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Intel_Arc",
+      "scraped_at_utc": "2025-12-31T08:24:32.004078+00:00"
+    },
+    {
+      "gpu_name": "Intel GMA",
+      "manufacturer": "Intel",
+      "architecture": null,
+      "specs": {
+        "vram": null,
+        "bus_width": null,
+        "core_clock": null,
+        "memory_type": null,
+        "tdp": null
+      },
+      "release_date": null,
+      "benchmarks": {
+        "tables_preview": [
+          {
+            "headers": [
+              "Model number",
+              "Year",
+              "Tier",
+              "Execution units",
+              "Boost Clock (MHz)",
+              "max GFLOPS"
+            ],
+            "rows_preview": [
+              [
+                "GMA 4500",
+                "2008",
+                "?",
+                "10",
+                "533",
+                ""
+              ]
+            ]
+          },
+          {
+            "headers": [
+              "Model number",
+              "Year",
+              "Tier",
+              "Execution units",
+              "Boost Clock (MHz)",
+              "max GFLOPS"
+            ],
+            "rows_preview": [
+              [
+                "GMA X4500",
+                "2008",
+                "?",
+                "10",
+                "800",
+                "32"
+              ]
+            ]
+          }
+        ]
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Intel_GMA",
+      "scraped_at_utc": "2025-12-31T08:24:33.634752+00:00"
+    },
+    {
+      "gpu_name": "List of Intel graphics processing units",
+      "manufacturer": "Intel",
+      "architecture": null,
+      "specs": {
+        "vram": null,
+        "bus_width": null,
+        "core_clock": null,
+        "memory_type": null,
+        "tdp": null
+      },
+      "release_date": null,
+      "benchmarks": null,
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Intel_graphics_processing_units",
+      "scraped_at_utc": "2025-12-31T08:24:35.974306+00:00"
+    },
+    {
+      "gpu_name": "Intel Graphics Technology",
+      "manufacturer": "Intel",
+      "architecture": null,
+      "specs": {
+        "vram": null,
+        "bus_width": null,
+        "core_clock": null,
+        "memory_type": null,
+        "tdp": null
+      },
+      "release_date": "2010",
+      "benchmarks": {
+        "tables_preview": [
+          {
+            "headers": [
+              "Model number",
+              "Execution units",
+              "Shading units",
+              "Base clock (MHz)",
+              "Boost clock (MHz)",
+              "GFLOPS ( FP32 )"
+            ],
+            "rows_preview": [
+              [
+                "HD Graphics",
+                "12",
+                "24",
+                "500",
+                "900",
+                "24.0–43.2"
+              ]
+            ]
+          },
+          {
+            "headers": [
+              "Model number",
+              "Tier",
+              "Execution units",
+              "Boost clock ( MHz )",
+              "Max GFLOPS"
+            ],
+            "rows_preview": [
+              [
+                "FP16",
+                "FP32",
+                "FP64"
+              ],
+              [
+                "HD Graphics",
+                "GT1",
+                "6",
+                "1000",
+                "192",
+                "96",
+                "24"
+              ],
+              [
+                "HD Graphics 2000",
+                "1350",
+                "259",
+                "129.6",
+                "32"
+              ]
+            ]
+          }
+        ]
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Intel_Graphics_Technology",
+      "scraped_at_utc": "2025-12-31T08:24:37.809750+00:00"
+    },
+    {
+      "gpu_name": "Intel i750",
+      "manufacturer": "Intel",
+      "architecture": null,
+      "specs": {
+        "vram": null,
+        "bus_width": null,
+        "core_clock": null,
+        "memory_type": null,
+        "tdp": null
+      },
+      "release_date": null,
+      "benchmarks": null,
+      "source_url": "https://en.wikipedia.org/wiki/Intel_i750",
+      "scraped_at_utc": "2025-12-31T08:24:39.443542+00:00"
+    },
+    {
+      "gpu_name": "Intel740",
+      "manufacturer": "Intel",
+      "architecture": "Auburn",
+      "specs": {
+        "vram": null,
+        "bus_width": null,
+        "core_clock": null,
+        "memory_type": null,
+        "tdp": null
+      },
+      "release_date": null,
+      "benchmarks": null,
+      "source_url": "https://en.wikipedia.org/wiki/Intel740",
+      "scraped_at_utc": "2025-12-31T08:24:41.037738+00:00"
+    },
+    {
+      "gpu_name": "Latte (graphics chip)",
+      "manufacturer": null,
+      "architecture": "Project Café [ 1 ]",
+      "specs": {
+        "vram": "2 GB",
+        "bus_width": null,
+        "core_clock": null,
+        "memory_type": null,
+        "tdp": {
+          "raw": "75 W",
+          "value": "75 W"
+        }
+      },
+      "release_date": "NA : November 18, 2012 PAL : November 30, 2012 JP : December 8, 2012",
+      "benchmarks": null,
+      "source_url": "https://en.wikipedia.org/wiki/Latte_(graphics_chip)",
+      "scraped_at_utc": "2025-12-31T08:24:43.205466+00:00"
+    },
+    {
+      "gpu_name": "Mali (processor)",
+      "manufacturer": null,
+      "architecture": "Utgard Midgard Bifrost Valhall",
+      "specs": {
+        "vram": null,
+        "bus_width": null,
+        "core_clock": null,
+        "memory_type": null,
+        "tdp": null
+      },
+      "release_date": "2005",
+      "benchmarks": {
+        "tables_preview": [
+          {
+            "headers": [
+              "Model",
+              "Launch date",
+              "Type",
+              "EUs/Shader core count",
+              "Core clock rate ( MHz )",
+              "L2 cache size",
+              "Fillrate",
+              "GFLOPS (per core)",
+              "OpenGL ES"
+            ],
+            "rows_preview": [
+              [
+                "M△/s",
+                "GT/s",
+                "( GP /s)"
+              ],
+              [
+                "Mali-55/110",
+                "2005",
+                "Fixed function pipeline [ 6 ]",
+                "1",
+                "",
+                "",
+                "2.8",
+                "",
+                "0.1",
+                "?",
+                "1.1"
+              ],
+              [
+                "Mali-200",
+                "2007 [ 7 ]",
+                "Programmable pipeline [ 6 ]",
+                "1",
+                "",
+                "",
+                "5",
+                "?",
+                "0.2",
+                "",
+                "2.0"
+              ]
+            ]
+          },
+          {
+            "headers": [
+              "Model",
+              "Microarchi- tecture",
+              "Type",
+              "Launch date",
+              "EUs/Shader core count",
+              "Shading Units (per core)",
+              "Total Shaders",
+              "Fab (nm)",
+              "Die size (mm 2 )",
+              "Core clock rate ( MHz )",
+              "L2 cache size (KiB)",
+              "Fillrate",
+              "GFLOPS (per core)",
+              "GFLOPS (total)",
+              "API (version)"
+            ],
+            "rows_preview": [
+              [
+                "M△/s",
+                "GT/s",
+                "( GP /s)",
+                "Vulkan",
+                "OpenGL ES",
+                "OpenCL"
+              ],
+              [
+                "Mali-T604 [ 45 ]",
+                "Midgard 1st gen",
+                "Unified shader model + SIMD ISA",
+                "Nov 2010 [ 46 ]",
+                "1–4",
+                "8",
+                "8–32",
+                "32 28",
+                "?",
+                "533",
+                "32–256",
+                "133",
+                "0.6 @ 600 MHz",
+                "9.6 @ 600 MHz",
+                "9.6–38.4 @ 600 MHz",
+                "— N/a",
+                "3.1",
+                "1.1 Full Profile"
+              ],
+              [
+                "Mali-T658 [ 45 ]",
+                "Nov 2011 [ 47 ]",
+                "1–8",
+                "16",
+                "16–128",
+                "?",
+                "?",
+                "",
+                "?",
+                "",
+                "",
+                "19.2 @ 600 MHz",
+                "19.2–153.6 @ 600 MHz"
+              ]
+            ]
+          }
+        ]
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Mali_(processor)",
+      "scraped_at_utc": "2025-12-31T08:24:46.941083+00:00"
+    },
+    {
+      "gpu_name": "AMD PowerPlay",
+      "manufacturer": "AMD",
+      "architecture": null,
+      "specs": {
+        "vram": null,
+        "bus_width": null,
+        "core_clock": null,
+        "memory_type": null,
+        "tdp": null
+      },
+      "release_date": null,
+      "benchmarks": {
+        "tables_preview": [
+          {
+            "headers": [
+              "Platform",
+              "High, standard and low power",
+              "Low and ultra-low power"
+            ],
+            "rows_preview": [
+              [
+                "Codename",
+                "Server",
+                "Basic",
+                "",
+                "Toronto",
+                "",
+                ""
+              ],
+              [
+                "Micro",
+                "",
+                "",
+                "Kyoto",
+                ""
+              ],
+              [
+                "Desktop",
+                "Performance",
+                "",
+                "Raphael",
+                "Phoenix",
+                ""
+              ]
+            ]
+          }
+        ]
+      },
+      "source_url": "https://en.wikipedia.org/wiki/AMD_PowerPlay",
+      "scraped_at_utc": "2025-12-31T08:24:56.971460+00:00"
+    },
+    {
+      "gpu_name": "AMD PowerTune",
+      "manufacturer": "AMD",
+      "architecture": null,
+      "specs": {
+        "vram": null,
+        "bus_width": null,
+        "core_clock": null,
+        "memory_type": null,
+        "tdp": null
+      },
+      "release_date": "2011-12-01",
+      "benchmarks": null,
+      "source_url": "https://en.wikipedia.org/wiki/AMD_PowerTune",
+      "scraped_at_utc": "2025-12-31T08:24:58.363568+00:00"
+    },
+    {
+      "gpu_name": "Radeon",
+      "manufacturer": "AMD",
+      "architecture": null,
+      "specs": {
+        "vram": null,
+        "bus_width": null,
+        "core_clock": null,
+        "memory_type": null,
+        "tdp": null
+      },
+      "release_date": "1 April 2000 ; 25 years ago ( 2000-04-01 ) by ATI Technologies",
+      "benchmarks": {
+        "tables_preview": [
+          {
+            "headers": [
+              "Model",
+              "Released",
+              "Shaders (Compute Units)",
+              "FP power Single Precision",
+              "Memory",
+              "Memory band-with",
+              "Memory clock",
+              "OpenGL Version",
+              "OpenCL Version",
+              "DirectX Version",
+              "Vulkan",
+              "UVD",
+              "Power",
+              "Output"
+            ],
+            "rows_preview": [
+              [
+                "E9550 (Polaris, GCN 4) [ 69 ]",
+                "2016-09-27",
+                "2304 (36 CU)",
+                "5834 GFLOPS",
+                "8 GB GDDR5",
+                "256 Bit",
+                "2000 MHz",
+                "4.5",
+                "2.0",
+                "12",
+                "1.1",
+                "6.3",
+                "95 Watt",
+                "MXM-B"
+              ],
+              [
+                "E9260 (GCN 4) [ 70 ]",
+                "2016-09-27",
+                "896 (14 CU)",
+                "2150 GFLOPS",
+                "4 GB GDDR5",
+                "128 Bit",
+                "1750 MHz",
+                "4.5",
+                "2.0",
+                "12",
+                "1.1",
+                "6.3",
+                "50 W",
+                "PCIe 3.0, MXM-A"
+              ],
+              [
+                "E9171 MCM (GCN 4) [ 71 ]",
+                "2017-10-03",
+                "512 (8 CU)",
+                "1248 GFLOPS",
+                "4 GB GDDR5",
+                "128 Bit",
+                "1500 MHz",
+                "4.5",
+                "2.0",
+                "12",
+                "1.1",
+                "6.3",
+                "40 W",
+                "PCIe 3.0 x8"
+              ]
+            ]
+          }
+        ]
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Radeon",
+      "scraped_at_utc": "2025-12-31T08:25:04.234615+00:00"
+    },
+    {
+      "gpu_name": "Radeon 200 series",
+      "manufacturer": "AMD",
+      "architecture": "TeraScale 2 GCN 1st gen GCN 2nd gen GCN 3rd gen",
+      "specs": {
+        "vram": null,
+        "bus_width": null,
+        "core_clock": null,
+        "memory_type": null,
+        "tdp": null
+      },
+      "release_date": "October 8, 2013 ; 12 years ago ( 2013-10-08 )",
+      "benchmarks": {
+        "tables_preview": [
+          {
+            "headers": [
+              "Model ( codename )",
+              "Release Date & Price",
+              "Architecture & Fab",
+              "Transistors & Die Size",
+              "Core",
+              "Fillrate [ a ] [ b ] [ c ]",
+              "Processing power [ a ] [ d ] ( GFLOPS )",
+              "Memory",
+              "TBP",
+              "Bus interface"
+            ],
+            "rows_preview": [
+              [
+                "Config [ e ]",
+                "Clock [ a ] ( MHz )",
+                "Texture ( GT /s)",
+                "Pixel ( GP /s)",
+                "Single",
+                "Double",
+                "Size ( MiB )",
+                "Bus type & width",
+                "Clock ( MT/s )",
+                "Band- width ( GB /s)"
+              ],
+              [
+                "Radeon R5 220 [ 28 ] (Caicos Pro)",
+                "December 21, 2013 OEM",
+                "Terascale 2 [ f ] 40 nm",
+                "370 × 10 6 67 mm 2",
+                "80:8:4",
+                "625 650",
+                "5",
+                "2.5",
+                "200",
+                "— N/a",
+                "1024",
+                "DDR3 64-bit",
+                "1066",
+                "8.53",
+                "18 W",
+                "PCIe 2.1 ×16"
+              ],
+              [
+                "Radeon R5 230 [ 29 ] (Caicos Pro)",
+                "April 3, 2014 [ 30 ] ?",
+                "160:8:4",
+                "625",
+                "5",
+                "2.5",
+                "200",
+                "— N/a",
+                "1024 2048",
+                "DDR3 64-bit",
+                "1066",
+                "8.53",
+                "19 W [ 31 ]"
+              ]
+            ]
+          },
+          {
+            "headers": [
+              "Model ( Codename )",
+              "Launch",
+              "Architecture ( Fab )",
+              "Core",
+              "Fillrate [ a ] [ b ] [ c ]",
+              "Processing power [ a ] [ d ] ( GFLOPS )",
+              "Memory",
+              "TDP"
+            ],
+            "rows_preview": [
+              [
+                "Config [ e ]",
+                "Clock [ a ] ( MHz )",
+                "Texture ( GT /s)",
+                "Pixel ( GP /s)",
+                "Size ( GiB )",
+                "Bus type & width",
+                "Clock ( MT/s )",
+                "Band- width ( GB /s)"
+              ],
+              [
+                "Radeon R5 M230 (Jet Pro)",
+                "January 2014",
+                "GCN 1 st gen (28 nm)",
+                "320:20:8:5",
+                "780 855",
+                "3.4",
+                "17.1",
+                "547",
+                "2 4",
+                "DDR3 64-bit",
+                "2000",
+                "16",
+                "Unknown"
+              ],
+              [
+                "Radeon R5 M255 (Jet Pro)",
+                "June 2014",
+                "320:20:8:5",
+                "925 940",
+                "7.5",
+                "18.8",
+                "601",
+                "2 4",
+                "DDR3 64-bit",
+                "2000",
+                "16",
+                "Unknown"
+              ]
+            ]
+          }
+        ]
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Radeon_200_series",
+      "scraped_at_utc": "2025-12-31T08:25:07.160477+00:00"
+    },
+    {
+      "gpu_name": "Radeon 300 series",
+      "manufacturer": "AMD",
+      "architecture": "GCN 1st gen GCN 2nd gen GCN 3rd gen",
+      "specs": {
+        "vram": null,
+        "bus_width": null,
+        "core_clock": null,
+        "memory_type": null,
+        "tdp": null
+      },
+      "release_date": "June 16, 2015 ; 10 years ago ( June 16, 2015 )",
+      "benchmarks": {
+        "tables_preview": [
+          {
+            "headers": [
+              "Model ( Codename )",
+              "Release Date & Price",
+              "Architecture ( Fab )",
+              "Transistors Die Size",
+              "Core",
+              "Fillrate [ a ] [ b ] [ c ]",
+              "Processing power [ a ] [ d ] ( GFLOPS )",
+              "Memory",
+              "TBP ( W )",
+              "Bus interface"
+            ],
+            "rows_preview": [
+              [
+                "Config [ e ]",
+                "Clock [ a ] ( MHz )",
+                "Texture ( GT /s)",
+                "Pixel ( GP /s)",
+                "Single",
+                "Double",
+                "Size ( MiB )",
+                "Bus type & width",
+                "Clock ( MT/s )",
+                "Band- width ( GB /s)"
+              ],
+              [
+                "Radeon R5 330 (Oland Pro)",
+                "May 2015 OEM",
+                "GCN 1 st gen (28 nm)",
+                "1040 × 10 6 90 mm 2",
+                "320:20:8",
+                "Unknown 855",
+                "17.1",
+                "6.84",
+                "547.2",
+                "34.2",
+                "1024 2048",
+                "DDR3 128-bit",
+                "1800",
+                "28.8",
+                "30",
+                "PCIe 3.0 x4 x8 ×16"
+              ],
+              [
+                "Radeon R5 340 (Oland XT)",
+                "May 2015 OEM",
+                "384:24:8",
+                "Unknown 825",
+                "19.8",
+                "6.6",
+                "633.6",
+                "39.6",
+                "1024 2048",
+                "DDR3 GDDR5 128-bit",
+                "1800 4500",
+                "28.8 72",
+                "75"
+              ]
+            ]
+          },
+          {
+            "headers": [
+              "Model ( Codename )",
+              "Launch",
+              "Architecture ( Fab )",
+              "Core",
+              "Fillrate [ a ] [ b ] [ c ]",
+              "Processing power [ a ] [ d ] ( GFLOPS )",
+              "Memory",
+              "TDP"
+            ],
+            "rows_preview": [
+              [
+                "Config [ e ]",
+                "Clock [ a ] ( MHz )",
+                "Texture ( GT /s)",
+                "Pixel ( GP /s)",
+                "Size ( GiB )",
+                "Bus type & width",
+                "Clock ( MT/s )",
+                "Band- width ( GB /s)"
+              ],
+              [
+                "Radeon R5 M330 [ 26 ] (Exo Pro)",
+                "2015",
+                "GCN 1 st gen (28 nm)",
+                "320:20:8",
+                "Unknown 1030",
+                "8.2",
+                "20.6",
+                "659.2",
+                "2 4",
+                "DDR3 64-bit",
+                "1800 2000",
+                "14.4 16",
+                "18 W"
+              ],
+              [
+                "Radeon R5 M335 [ 26 ] (Exo Pro)",
+                "2015",
+                "320:20:8",
+                "Unknown 1070",
+                "8.6",
+                "21.4",
+                "684.8",
+                "2 4",
+                "DDR3 64-bit",
+                "2200",
+                "17.6",
+                "Unknown"
+              ]
+            ]
+          }
+        ]
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Radeon_300_series",
+      "scraped_at_utc": "2025-12-31T08:25:09.094031+00:00"
+    },
+    {
+      "gpu_name": "Radeon 400 series",
+      "manufacturer": "AMD",
+      "architecture": "GCN 1st gen GCN 2nd gen GCN 4th gen",
+      "specs": {
+        "vram": null,
+        "bus_width": null,
+        "core_clock": null,
+        "memory_type": null,
+        "tdp": null
+      },
+      "release_date": "June 29, 2016 ; 9 years ago ( 2016-06-29 )",
+      "benchmarks": {
+        "tables_preview": [
+          {
+            "headers": [
+              "Model ( Codename )",
+              "Release Date & Price",
+              "Architecture & Fab",
+              "Transistors & Die Size",
+              "Core",
+              "Fillrate [ a ] [ b ] [ c ]",
+              "Processing power [ a ] [ d ] ( GFLOPS )",
+              "Memory",
+              "TBP",
+              "Bus interface"
+            ],
+            "rows_preview": [
+              [
+                "Config [ e ]",
+                "Clock [ a ] ( MHz )",
+                "Texture ( GT /s)",
+                "Pixel ( GP /s)",
+                "Single",
+                "Double",
+                "Size ( GiB )",
+                "Bus type & width",
+                "Clock ( MT/s )",
+                "Band- width ( GB /s)"
+              ],
+              [
+                "Radeon R5 430 (Oland Pro) [ 29 ] [ 30 ]",
+                "June 30, 2016 OEM",
+                "GCN 1 st gen 28 nm",
+                "1040 × 10 6 90 mm 2",
+                "384:24:8 6 CU",
+                "730 780",
+                "17.52 18.72",
+                "5.84 6.24",
+                "560 599",
+                "37.4 40",
+                "1 2",
+                "DDR3 GDDR5 64-bit",
+                "1800 4500",
+                "28.8 36",
+                "50 W",
+                "PCIe 3.0 ×8"
+              ],
+              [
+                "Radeon R5 435 (Oland) [ 29 ] [ 31 ]",
+                "320:20:8 5 CU",
+                "1030",
+                "20.6",
+                "8.24",
+                "659",
+                "41.2",
+                "2",
+                "DDR3 64-bit",
+                "2000",
+                "16"
+              ]
+            ]
+          },
+          {
+            "headers": [
+              "Model ( Codename )",
+              "Launch",
+              "Architecture & Fab",
+              "Core",
+              "Fillrate [ a ] [ b ] [ c ]",
+              "Processing power [ a ] [ d ] ( GFLOPS )",
+              "Memory",
+              "TDP"
+            ],
+            "rows_preview": [
+              [
+                "Config [ e ]",
+                "Clock [ a ] ( MHz )",
+                "Texture ( GT /s)",
+                "Pixel ( GP /s)",
+                "Bus type & width",
+                "Size ( GiB )",
+                "Clock ( MHz )",
+                "Band- width ( GB /s)"
+              ],
+              [
+                "Radeon R5 M420 [ 48 ] (Jet Pro)",
+                "15 May 2016",
+                "GCN 1 st gen 28 nm",
+                "320:20:8",
+                "780 855",
+                "15.6 17.1",
+                "6.24 6.84",
+                "499 547",
+                "DDR3 64-bit",
+                "2",
+                "1000",
+                "16.0",
+                "~20 W"
+              ],
+              [
+                "Radeon R5 M430 [ 49 ] (Exo Pro)",
+                "15 May 2016",
+                "320:20:8",
+                "1030 ?",
+                "20.6",
+                "8.2",
+                "659.2 659.2",
+                "DDR3 64-bit",
+                "2",
+                "1000",
+                "14.4",
+                "18 W"
+              ]
+            ]
+          }
+        ]
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Radeon_400_series",
+      "scraped_at_utc": "2025-12-31T08:25:12.365109+00:00"
+    },
+    {
+      "gpu_name": "Radeon 500 series",
+      "manufacturer": "AMD",
+      "architecture": "GCN 1st gen GCN 3rd gen GCN 4th gen",
+      "specs": {
+        "vram": null,
+        "bus_width": null,
+        "core_clock": null,
+        "memory_type": null,
+        "tdp": null
+      },
+      "release_date": "April 18, 2017 (8 years ago) ( 2017-04-18 )",
+      "benchmarks": {
+        "tables_preview": [
+          {
+            "headers": [
+              "Model ( Code name )",
+              "Release Date & Price",
+              "Architecture & fab",
+              "Transistors & die size",
+              "Core",
+              "Fillrate [ a ] [ b ] [ c ]",
+              "Processing power [ a ] [ d ] ( GFLOPS )",
+              "Memory",
+              "TBP",
+              "Bus interface"
+            ],
+            "rows_preview": [
+              [
+                "Config [ e ]",
+                "Clock [ a ] ( MHz )",
+                "Texture ( GT /s)",
+                "Pixel ( GP /s)",
+                "Single",
+                "Double",
+                "Size",
+                "Bus type & width",
+                "Clock ( MT/s )",
+                "Bandwidth ( GB /s)"
+              ],
+              [
+                "Radeon 520 (Banks) [ f ] [ 11 ] [ 12 ]",
+                "Apr 18, 2017 OEM",
+                "GCN 1 28 nm",
+                "690 × 10 6 56mm 2",
+                "320:20:4 5 CU",
+                "1030",
+                "20.6",
+                "4.1",
+                "659.2",
+                "41.2",
+                "1 GB 2 GB",
+                "DDR3 GDDR5 64-bit",
+                "2000 4500",
+                "16 36",
+                "?",
+                "PCIe 3.0 ×8"
+              ],
+              [
+                "Radeon 530 (Weston) [ f ] [ 13 ]",
+                "GCN 3 28 nm",
+                "? 125 mm 2",
+                "320:20:8 5 CU",
+                "1024",
+                "20.480",
+                "8.2",
+                "655.36",
+                "40.96",
+                "1 GB 2 GB 4 GB [ 14 ]",
+                "DDR3 GDDR5 64-bit",
+                "1800 4500",
+                "14.4 36"
+              ]
+            ]
+          }
+        ]
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Radeon_500_series",
+      "scraped_at_utc": "2025-12-31T08:25:15.063145+00:00"
+    },
+    {
+      "gpu_name": "Radeon 600 series",
+      "manufacturer": "AMD",
+      "architecture": "GCN 1st gen GCN 3rd gen GCN 4th gen",
+      "specs": {
+        "vram": null,
+        "bus_width": null,
+        "core_clock": null,
+        "memory_type": null,
+        "tdp": null
+      },
+      "release_date": "August 13, 2019 (6 years ago) ( 2019-08-13 )",
+      "benchmarks": {
+        "tables_preview": [
+          {
+            "headers": [
+              "Model ( Code name )",
+              "Release date & Price",
+              "Architecture & fab",
+              "Transistors & die size",
+              "Core",
+              "Fillrate [ a ] [ b ] [ c ]",
+              "Processing power [ a ] [ d ] ( GFLOPS )",
+              "Memory",
+              "TBP",
+              "Bus interface"
+            ],
+            "rows_preview": [
+              [
+                "Config [ e ]",
+                "Clock [ a ] ( MHz )",
+                "Texture ( GT /s)",
+                "Pixel ( GP /s)",
+                "Single",
+                "Double",
+                "Size ( GB )",
+                "Bandwidth ( GB /s)",
+                "Bus type & width",
+                "Clock ( MT/s )"
+              ],
+              [
+                "Radeon 630 (Polaris 23) [ 6 ] [ 7 ]",
+                "Aug 13, 2019 OEM [ 8 ]",
+                "GCN 4 GloFo 14 nm [ f ]",
+                "2.2 × 10 9 103 mm 2",
+                "512:32:8 8 CU",
+                "1082 1219",
+                "34.62 38.98",
+                "8.65 9.75",
+                "1,108 1,248",
+                "69.24 78.01",
+                "2 4",
+                "48.0",
+                "GDDR5 64-bit",
+                "6000",
+                "50 W",
+                "PCIe 3.0 ×8"
+              ],
+              [
+                "Radeon RX 640 (Polaris 23) [ 10 ] [ 11 ]",
+                "512:40:16 8 CU",
+                "1082 1287",
+                "43.28 51.48",
+                "17.31 20.59",
+                "1,385 1,647",
+                "86.56 102.9",
+                "56.0",
+                "7000"
+              ]
+            ]
+          },
+          {
+            "headers": [
+              "Model ( Code name )",
+              "Release date & price",
+              "Architecture & fab",
+              "Transistors & die size",
+              "Core",
+              "Fillrate [ a ] [ b ] [ c ]",
+              "Processing power [ a ] [ d ] ( GFLOPS )",
+              "Memory",
+              "TBP",
+              "Bus interface"
+            ],
+            "rows_preview": [
+              [
+                "Config [ e ]",
+                "Clock [ a ] ( MHz )",
+                "Texture ( GT /s)",
+                "Pixel ( GP /s)",
+                "Single",
+                "Double",
+                "Size ( GB )",
+                "Bandwidth ( GB /s)",
+                "Bus type & width",
+                "Clock ( MT/s )"
+              ],
+              [
+                "Radeon 610 (Banks) [ 12 ]",
+                "Aug 13, 2019 OEM [ 13 ]",
+                "GCN 1 [ 14 ] TSMC 28 nm",
+                "6.9 × 10 8 56 mm 2",
+                "320:20:4 5 CU",
+                "1030",
+                "20.60",
+                "8.24",
+                "659.2",
+                "41.20",
+                "2 4",
+                "36.0",
+                "GDDR5 64-bit",
+                "4500",
+                "50 W",
+                "PCIe 3.0 ×8"
+              ],
+              [
+                "Radeon 620 (Polaris 24) [ 15 ]",
+                "GCN 3 [ 16 ] TSMC 28 nm",
+                "1.55 × 10 9 125 mm 2",
+                "320:20:8 6 CU",
+                "730 1024",
+                "17.52 24.58",
+                "5.84 8.19",
+                "560.6 786.4",
+                "35.04 49.15",
+                "14.4",
+                "DDR3 64-bit",
+                "1800"
+              ]
+            ]
+          }
+        ]
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Radeon_600_series",
+      "scraped_at_utc": "2025-12-31T08:25:17.279064+00:00"
+    },
+    {
+      "gpu_name": "Radeon HD 7000 series",
+      "manufacturer": "AMD",
+      "architecture": "TeraScale 2 TeraScale 3 GCN 1st gen GCN 2nd gen",
+      "specs": {
+        "vram": null,
+        "bus_width": null,
+        "core_clock": null,
+        "memory_type": null,
+        "tdp": null
+      },
+      "release_date": "January 9, 2012 ; 13 years ago ( 2012-01-09 )",
+      "benchmarks": {
+        "tables_preview": [
+          {
+            "headers": [
+              "Model ( Codename )",
+              "Launch",
+              "Architecture Fab",
+              "Transistors Die Size",
+              "Core",
+              "Fillrate [ a ] [ b ] [ c ]",
+              "Processing power [ a ] [ d ] ( GFLOPS )",
+              "Memory [ e ]",
+              "TDP ( Watts )",
+              "Bus interface",
+              "Release Price (USD)"
+            ],
+            "rows_preview": [
+              [
+                "Config [ f ]",
+                "Clock [ a ] ( MHz )",
+                "Texture ( GT /s)",
+                "Pixel ( GP /s)",
+                "Single",
+                "Double",
+                "Size ( MiB )",
+                "Bus type & width",
+                "Clock ( MHz )",
+                "Bandwidth ( GB /s)",
+                "Idle",
+                "Max."
+              ],
+              [
+                "Radeon HD 7350 (Cedar)",
+                "January 2012",
+                "TeraScale 2 [ g ] 40 nm",
+                "292 × 10 6 59 mm 2",
+                "80:8:4",
+                "400 650",
+                "3.2 5.2",
+                "1.6 2.6",
+                "104",
+                "— N/a",
+                "256 512",
+                "DDR2 DDR3 64-bit",
+                "400 800 900",
+                "6.4 12.8 14.4",
+                "6.4",
+                "19.1",
+                "PCIe 2.1 ×16",
+                "OEM"
+              ],
+              [
+                "Radeon HD 7450 (Caicos)",
+                "January 2012",
+                "370 × 10 6 67 mm 2",
+                "160:8:4",
+                "625 750",
+                "5.0 6.0",
+                "2.5 3.0",
+                "200 240",
+                "— N/a",
+                "512 1024",
+                "DDR3 64-bit",
+                "533 800",
+                "8.5 12.8",
+                "9",
+                "18",
+                "PCIe 2.1 ×16",
+                "OEM"
+              ]
+            ]
+          },
+          {
+            "headers": [
+              "Model ( Codename )",
+              "Launch",
+              "Architecture ( Fab )",
+              "Core",
+              "Fillrate",
+              "Processing power ( GFLOPS )",
+              "Memory",
+              "Bus interface",
+              "TDP ( W )"
+            ],
+            "rows_preview": [
+              [
+                "Config [ a ]",
+                "Clock ( MHz )",
+                "Texture ( GT /s)",
+                "Pixel ( GP /s)",
+                "Size ( GiB )",
+                "Bus type & width ( bit ) [ b ]",
+                "Memory ( MHz )",
+                "Bandwidth ( GB /s)"
+              ],
+              [
+                "Radeon HD 7430M (Seymour Pro)",
+                "January 2012",
+                "TeraScale 2 [ c ] (40 nm)",
+                "160:8:4:2",
+                "600",
+                "4.8",
+                "2.4",
+                "192",
+                "1",
+                "DDR3 64-bit",
+                "900",
+                "14.4",
+                "PCIe 2.1 ×16",
+                "7"
+              ],
+              [
+                "Radeon HD 7450M (Seymour Pro)",
+                "700 700",
+                "5.6",
+                "2.8",
+                "224",
+                "1",
+                "DDR3 GDDR5 64-bit",
+                "900 800",
+                "14.4 25.6",
+                "7"
+              ]
+            ]
+          }
+        ]
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Radeon_HD_7000_series",
+      "scraped_at_utc": "2025-12-31T08:25:19.100702+00:00"
+    },
+    {
+      "gpu_name": "Radeon HD 8000 series",
+      "manufacturer": "AMD",
+      "architecture": "TeraScale 2 TeraScale 3 GCN 1st gen GCN 2nd gen",
+      "specs": {
+        "vram": null,
+        "bus_width": null,
+        "core_clock": null,
+        "memory_type": null,
+        "tdp": null
+      },
+      "release_date": "2013-02-01",
+      "benchmarks": {
+        "tables_preview": [
+          {
+            "headers": [
+              "Model ( Codename )",
+              "Launch",
+              "Architecture ( Fab )",
+              "Transistors Die Size",
+              "Core",
+              "Fillrate [ a ] [ b ] [ c ]",
+              "Processing power [ a ] [ d ] ( GFLOPS )",
+              "Memory [ e ]",
+              "TDP ( W )",
+              "Bus interface"
+            ],
+            "rows_preview": [
+              [
+                "Config [ f ]",
+                "Clock [ a ] ( MHz )",
+                "Texture ( GT /s)",
+                "Pixel ( GP /s)",
+                "Single",
+                "Double",
+                "Size ( MiB )",
+                "Bus type & width ( bit )",
+                "Clock ( MHz )",
+                "Band- width ( GB /s)",
+                "Idle Max"
+              ],
+              [
+                "Radeon HD 8350 (Cedar)",
+                "January 8, 2013",
+                "TeraScale 2 [ g ] (40 nm)",
+                "292 × 10 6 59 mm 2",
+                "80:8:4",
+                "400–650",
+                "3.2 5.2",
+                "1.6 2.6",
+                "104",
+                "— N/a",
+                "256 512",
+                "DDR2 DDR3 64-bit",
+                "400 800",
+                "6.4 12.8",
+                "6.4 19.1",
+                "PCIe 2.1 ×16"
+              ],
+              [
+                "Radeon HD 8450 (Caicos)",
+                "January 8, 2013",
+                "370 × 10 6 67 mm 2",
+                "160:8:4",
+                "625",
+                "5.0",
+                "2.5",
+                "200",
+                "— N/a",
+                "512",
+                "DDR3 64-bit",
+                "533",
+                "8.53",
+                "9 18"
+              ]
+            ]
+          },
+          {
+            "headers": [
+              "Model ( Codename )",
+              "Launch",
+              "Architecture ( Fab )",
+              "Core",
+              "Fillrate [ a ] [ b ] [ c ]",
+              "Processing power [ a ] [ d ] ( GFLOPS )",
+              "Memory [ e ]",
+              "TDP ( W )"
+            ],
+            "rows_preview": [
+              [
+                "Config [ f ]",
+                "Clock [ a ] ( MHz )",
+                "Texture ( GT /s)",
+                "Pixel ( GP /s)",
+                "Size ( GiB )",
+                "Bus type & width ( bit )",
+                "Clock ( MHz )",
+                "Band- width ( GB /s)"
+              ],
+              [
+                "Radeon HD 8550M / 8630M (Sun LE)",
+                "8 January 2013",
+                "GCN 1 st gen (28 nm)",
+                "384:24:8",
+                "650 700",
+                "15.6 16.8",
+                "5.2 5.6",
+                "537.6",
+                "1",
+                "DDR3 64",
+                "900",
+                "14.4",
+                "Unknown"
+              ],
+              [
+                "Radeon HD 8570M / 8650M (Sun Pro)",
+                "8 January 2013",
+                "384:24:8",
+                "650 700",
+                "15.6 16.8",
+                "5.2 5.6",
+                "537.6",
+                "1",
+                "GDDR5 64",
+                "1125",
+                "36",
+                "Unknown"
+              ]
+            ]
+          }
+        ]
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Radeon_HD_8000_series",
+      "scraped_at_utc": "2025-12-31T08:25:21.989189+00:00"
+    },
+    {
+      "gpu_name": "Radeon RX 5000 series",
+      "manufacturer": "AMD",
+      "architecture": "RDNA",
+      "specs": {
+        "vram": null,
+        "bus_width": null,
+        "core_clock": null,
+        "memory_type": null,
+        "tdp": null
+      },
+      "release_date": "July 7, 2019 (6 years ago) ( 2019-07-07 )",
+      "benchmarks": {
+        "tables_preview": [
+          {
+            "headers": [
+              "Model ( Code name )",
+              "Release Date & Price",
+              "Architecture & fab",
+              "Transistors & die size",
+              "Core",
+              "Fillrate [ a ] [ b ] [ c ]",
+              "Processing power [ a ] [ d ] ( GFLOPS )",
+              "Memory",
+              "TBP",
+              "Bus interface"
+            ],
+            "rows_preview": [
+              [
+                "Config [ e ]",
+                "Clock [ a ] ( MHz )",
+                "Texture ( GT /s)",
+                "Pixel ( GP /s)",
+                "Half",
+                "Single",
+                "Double",
+                "Size ( GB )",
+                "Bandwidth ( GB /s)",
+                "Bus type & width",
+                "Clock ( MT/s )"
+              ],
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Radeon RX 5300 (Navi 14) [ 19 ] [ 20 ]",
+                "Aug 28, 2020 OEM",
+                "RDNA TSMC N7",
+                "6.4 × 10 9 158 mm 2",
+                "1408:88:32 22 CU",
+                "1327 1645",
+                "116.8 144.8",
+                "42.46 52.64",
+                "7,474 9,265",
+                "3,737 4,632",
+                "233.5 289.5",
+                "3",
+                "168",
+                "GDDR6 96-bit",
+                "14000",
+                "100 W",
+                "PCIe 4.0 ×8"
+              ]
+            ]
+          },
+          {
+            "headers": [
+              "Model ( Code name )",
+              "Release date",
+              "Architecture & fab",
+              "Transistors & die size",
+              "Core",
+              "Fillrate [ a ] [ b ] [ c ]",
+              "Processing power [ a ] [ d ] ( GFLOPS )",
+              "Memory",
+              "TDP",
+              "Bus interface"
+            ],
+            "rows_preview": [
+              [
+                "Config [ e ]",
+                "Clock [ a ] ( MHz )",
+                "Texture ( GT /s)",
+                "Pixel ( GP /s)",
+                "Half",
+                "Single",
+                "Double",
+                "Size ( GB )",
+                "Bandwidth ( GB /s)",
+                "Bus type & width",
+                "Clock ( MT/s )"
+              ],
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Radeon RX 5300M (Navi 14) [ 44 ] [ 45 ]",
+                "Nov 13, 2019",
+                "RDNA TSMC N7",
+                "6.4 × 10 9 158 mm 2",
+                "1408:88:32 22 CU",
+                "1000 1445",
+                "88.0 127.2",
+                "32.0 46.2",
+                "5,632 8,138",
+                "2,816 4,069",
+                "176.0 254.3",
+                "3",
+                "168",
+                "GDDR6 96-bit",
+                "14000",
+                "65 W",
+                "PCIe 4.0 ×8"
+              ]
+            ]
+          }
+        ]
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Radeon_RX_5000_series",
+      "scraped_at_utc": "2025-12-31T08:25:24.035303+00:00"
+    },
+    {
+      "gpu_name": "Radeon RX 6000 series",
+      "manufacturer": "AMD",
+      "architecture": "RDNA 2",
+      "specs": {
+        "vram": null,
+        "bus_width": null,
+        "core_clock": null,
+        "memory_type": null,
+        "tdp": null
+      },
+      "release_date": "November 18, 2020 ; 5 years ago ( 2020-11-18 )",
+      "benchmarks": {
+        "tables_preview": [
+          {
+            "headers": [
+              "Model ( Code name )",
+              "Release Date & Price",
+              "Architecture & fab",
+              "Transistors & die size",
+              "Core",
+              "Fillrate [ a ] [ b ] [ c ]",
+              "Processing power [ a ] [ d ] ( GFLOPS )",
+              "Infinity Cache",
+              "Memory",
+              "TBP",
+              "Bus interface"
+            ],
+            "rows_preview": [
+              [
+                "Config [ e ]",
+                "Clock [ a ] ( MHz )",
+                "Texture ( GT /s)",
+                "Pixel ( GP /s)",
+                "Half",
+                "Single",
+                "Double",
+                "Size",
+                "Bandwidth ( GB /s)",
+                "Size",
+                "Bandwidth (GB/s)",
+                "Bus type & width",
+                "Clock ( MT/s )"
+              ],
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Radeon RX 6300 (Navi 24) [ 31 ] [ 32 ] [ 33 ] [ f ]",
+                "Jan 4, 2022 [ g ] OEM",
+                "RDNA 2 TSMC N6",
+                "5.4 × 10 9 107 mm 2",
+                "768:48:32:12 12 CU",
+                "1000 2040",
+                "48 97.9",
+                "32 65.3",
+                "3,072 6,267",
+                "1536 3,133",
+                "96 195.8",
+                "8 MB",
+                "104",
+                "2 GB",
+                "64",
+                "GDDR6 32-bit",
+                "16000",
+                "32 W",
+                "PCIe 4.0 ×4"
+              ]
+            ]
+          },
+          {
+            "headers": [
+              "Model ( Code name )",
+              "Release date",
+              "Architecture & fab",
+              "Transistors & die size",
+              "Core",
+              "Fillrate [ a ] [ b ] [ c ]",
+              "Processing power [ a ] [ d ] ( GFLOPS )",
+              "Infinity Cache",
+              "Memory",
+              "HW Decoder",
+              "HW Encoder",
+              "TDP",
+              "Bus interface"
+            ],
+            "rows_preview": [
+              [
+                "Config [ e ]",
+                "Clock [ a ] ( MHz )",
+                "Texture ( GT /s)",
+                "Pixel ( GP /s)",
+                "Half",
+                "Single",
+                "Double",
+                "Size",
+                "Bandwidth ( GB /s)",
+                "Bus type & width",
+                "Clock ( MT/s )",
+                "AV1",
+                "H265",
+                "4K H264",
+                "AV1",
+                "H265",
+                "4K H264"
+              ],
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Radeon RX 6300M (Navi 24) [ f ] [ 69 ]",
+                "Jan 4, 2022",
+                "RDNA 2 TSMC N6",
+                "5.4 × 10 9 107 mm 2",
+                "768:64:32:12 12 CU",
+                "1512",
+                "97.76",
+                "48.38",
+                "6,270",
+                "3,130",
+                "195.6",
+                "8 MB",
+                "2 GB",
+                "64",
+                "GDDR6 32-bit",
+                "16000",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "25 W",
+                "PCIe 4.0 ×4"
+              ]
+            ]
+          }
+        ]
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Radeon_RX_6000_series",
+      "scraped_at_utc": "2025-12-31T08:25:25.597170+00:00"
+    },
+    {
+      "gpu_name": "Radeon RX 7000 series",
+      "manufacturer": "AMD",
+      "architecture": "RDNA 3",
+      "specs": {
+        "vram": null,
+        "bus_width": null,
+        "core_clock": null,
+        "memory_type": null,
+        "tdp": null
+      },
+      "release_date": "December 13, 2022 ; 3 years ago ( 2022-12-13 )",
+      "benchmarks": {
+        "tables_preview": [
+          {
+            "headers": [
+              "",
+              "Graphics Compute Die (GCD)",
+              "Memory Cache Die (MCD)"
+            ],
+            "rows_preview": [
+              [
+                "Navi 31 [ 8 ]",
+                "Navi 32",
+                "Navi 33"
+              ],
+              [
+                "Codename",
+                "Plum Bonito",
+                "Wheat Nas",
+                "Hotpink Bonefish",
+                "—"
+              ],
+              [
+                "Compute units (Stream processors) [FP32 cores]",
+                "96 (6144)",
+                "60 (3840)",
+                "32 (2048)"
+              ]
+            ]
+          }
+        ]
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Radeon_RX_7000_series",
+      "scraped_at_utc": "2025-12-31T08:25:27.264422+00:00"
+    },
+    {
+      "gpu_name": "Radeon RX 9000 series",
+      "manufacturer": "AMD",
+      "architecture": "RDNA 4",
+      "specs": {
+        "vram": null,
+        "bus_width": null,
+        "core_clock": null,
+        "memory_type": null,
+        "tdp": null
+      },
+      "release_date": "March 6, 2025 (9 months ago) ( 2025-03-06 )",
+      "benchmarks": {
+        "tables_preview": [
+          {
+            "headers": [
+              "Radeon RX",
+              "9060 [ 16 ] [ 17 ]",
+              "9060 XT [ 18 ] [ 19 ] [ 13 ] [ 20 ]",
+              "9070 GRE [ 21 ] [ 22 ]",
+              "9070 [ 23 ] [ 24 ]",
+              "9070 XT [ 25 ] [ 26 ]"
+            ],
+            "rows_preview": [
+              [
+                "Release date",
+                "5 Aug 2025",
+                "5 Jun 2025",
+                "8 May 2025",
+                "6 Mar 2025"
+              ],
+              [
+                "Launch MSRP",
+                "OEM",
+                "$299 (8 GB) $349 (16 GB)",
+                "¥4,199 [ a ] (Around $580)",
+                "$549",
+                "$599"
+              ],
+              [
+                "GPU die",
+                "Navi 44",
+                "Navi 48"
+              ]
+            ]
+          }
+        ]
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Radeon_RX_9000_series",
+      "scraped_at_utc": "2025-12-31T08:25:28.848251+00:00"
+    },
+    {
+      "gpu_name": "Radeon RX Vega series",
+      "manufacturer": "AMD",
+      "architecture": "GCN 5th gen",
+      "specs": {
+        "vram": null,
+        "bus_width": null,
+        "core_clock": null,
+        "memory_type": null,
+        "tdp": null
+      },
+      "release_date": "August 14, 2017 (8 years ago) ( 2017-08-14 )",
+      "benchmarks": {
+        "tables_preview": [
+          {
+            "headers": [
+              "Model ( Code name )",
+              "Release Date & Price",
+              "Architecture & fab",
+              "Transistors & die size",
+              "Core",
+              "Fillrate [ a ] [ b ] [ c ]",
+              "Processing power [ a ] [ d ] ( GFLOPS )",
+              "Memory",
+              "TBP",
+              "Bus interface"
+            ],
+            "rows_preview": [
+              [
+                "Config [ e ]",
+                "Clock [ a ] ( MHz )",
+                "Texture ( GT /s)",
+                "Pixel ( GP /s)",
+                "Half",
+                "Single",
+                "Double",
+                "Size ( GB )",
+                "Bandwidth ( GB /s)",
+                "Bus type & width",
+                "Clock ( MT/s )"
+              ],
+              [
+                "Radeon RX Vega 56 (Vega 10) [ 22 ] [ 23 ] [ 24 ]",
+                "Aug 28, 2017 $399 USD",
+                "GCN 5 GloFo 14LPP [ f ] [ 25 ] [ 26 ]",
+                "12.5 × 10 9 486 mm 2",
+                "3584:224:64 56 CU",
+                "1156 1471",
+                "258.9 329.5",
+                "73.98 94.14",
+                "16,572 21,088",
+                "8,286 10,544",
+                "517.9 659.0",
+                "8",
+                "409.6",
+                "HBM2 2048-bit",
+                "1600",
+                "210 W",
+                "PCIe 3.0 ×16"
+              ],
+              [
+                "Radeon RX Vega 64 (Vega 10) [ 27 ] [ 23 ] [ 24 ]",
+                "Aug 14, 2017 $499 USD",
+                "4096:256:64 64 CU",
+                "1247 1546",
+                "319.2 395.8",
+                "79.81 98.94",
+                "20,431 25,330",
+                "10,215 12,665",
+                "638.5 791.6",
+                "483.8",
+                "1890",
+                "295 W"
+              ]
+            ]
+          },
+          {
+            "headers": [
+              "Model ( Code name )",
+              "Release Date & Price",
+              "Architecture & fab",
+              "Transistors & die size",
+              "Core",
+              "Fillrate [ a ] [ b ] [ c ]",
+              "Processing power [ a ] [ d ] ( GFLOPS )",
+              "Memory",
+              "TBP",
+              "Bus interface"
+            ],
+            "rows_preview": [
+              [
+                "Config [ e ]",
+                "Clock [ a ] ( MHz )",
+                "Texture ( GT /s)",
+                "Pixel ( GP /s)",
+                "Half",
+                "Single",
+                "Double",
+                "Size ( GB )",
+                "Bandwidth ( GB /s)",
+                "Bus type & width",
+                "Clock ( MT/s )"
+              ],
+              [
+                "Radeon VII (Vega 20) [ 28 ] [ 29 ] [ 30 ]",
+                "Feb 7, 2019 $699 USD",
+                "GCN 5 TSMC CLN7FF [ 31 ]",
+                "13.23 × 10 9 331 mm 2",
+                "3840:240:64 60 CU",
+                "1400 1800",
+                "336.0 420.0",
+                "89.60 112.0",
+                "21,504 27,648",
+                "10,752 13,824",
+                "2,688 3,459",
+                "16",
+                "1024",
+                "HBM2 4096-bit",
+                "2000",
+                "300 W",
+                "PCIe 3.0 ×16"
+              ]
+            ]
+          }
+        ]
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Radeon_RX_Vega_series",
+      "scraped_at_utc": "2025-12-31T08:25:30.843734+00:00"
+    },
+    {
+      "gpu_name": "Voodoo 5",
+      "manufacturer": null,
+      "architecture": "VSA-100",
+      "specs": {
+        "vram": null,
+        "bus_width": null,
+        "core_clock": null,
+        "memory_type": null,
+        "tdp": null
+      },
+      "release_date": "June 22, 2000 ; 25 years ago ( June 22, 2000 )",
+      "benchmarks": null,
+      "source_url": "https://en.wikipedia.org/wiki/Voodoo_5",
+      "scraped_at_utc": "2025-12-31T08:25:45.137811+00:00"
+    },
+    {
+      "gpu_name": "Voodoo2",
+      "manufacturer": null,
+      "architecture": "SST2",
+      "specs": {
+        "vram": null,
+        "bus_width": null,
+        "core_clock": null,
+        "memory_type": null,
+        "tdp": null
+      },
+      "release_date": "February 1998 ; 27 years ago ( February 1998 )",
+      "benchmarks": null,
+      "source_url": "https://en.wikipedia.org/wiki/Voodoo2",
+      "scraped_at_utc": "2025-12-31T08:25:47.462116+00:00"
+    },
+    {
+      "gpu_name": "Voodoo3",
+      "manufacturer": null,
+      "architecture": "Avenger",
+      "specs": {
+        "vram": null,
+        "bus_width": null,
+        "core_clock": null,
+        "memory_type": null,
+        "tdp": null
+      },
+      "release_date": "March 1999 ; 26 years ago ( March 1999 )",
+      "benchmarks": null,
+      "source_url": "https://en.wikipedia.org/wiki/Voodoo3",
+      "scraped_at_utc": "2025-12-31T08:25:49.251643+00:00"
+    }
+  ]
+}
