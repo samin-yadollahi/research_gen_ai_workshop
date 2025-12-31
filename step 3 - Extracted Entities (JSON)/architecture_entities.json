@@ -1,0 +1,23 @@
+[
+  {
+    "entity_name": "Blackwell",
+    "entity_type": "architecture",
+    "category": "Hardware/GPU",
+    "source_text": "Architecture field extracted for some GPUs: Blackwell.",
+    "source_url": "https://en.wikipedia.org/wiki/GeForce_RTX_50_series"
+  },
+  {
+    "entity_name": "Ada Lovelace",
+    "entity_type": "architecture",
+    "category": "Hardware/GPU",
+    "source_text": "Architecture field extracted for some GPUs: Ada Lovelace.",
+    "source_url": "https://en.wikipedia.org/wiki/GeForce_RTX_40_series"
+  },
+  {
+    "entity_name": "RDNA 3",
+    "entity_type": "architecture",
+    "category": "Hardware/GPU",
+    "source_text": "Architecture field extracted for some GPUs: RDNA 3.",
+    "source_url": "https://en.wikipedia.org/wiki/Radeon_RX_7000_series"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "entity_name": "GDDR7",
+    "entity_type": "memory_type",
+    "category": "Hardware/GPU",
+    "source_text": "Memory type observed in specs: GDDR7.",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5090"
+  },
+  {
+    "entity_name": "GDDR6X",
+    "entity_type": "memory_type",
+    "category": "Hardware/GPU",
+    "source_text": "Memory type observed in specs: GDDR6X.",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4090"
+  },
+  {
+    "entity_name": "GDDR6",
+    "entity_type": "memory_type",
+    "category": "Hardware/GPU",
+    "source_text": "Memory type observed in specs: GDDR6.",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-Radeon-RX-7900-XTX"
+  }
+]

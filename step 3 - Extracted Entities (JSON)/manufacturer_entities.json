@@ -1,0 +1,16 @@
+[
+  {
+    "entity_name": "NVIDIA",
+    "entity_type": "manufacturer",
+    "category": "Hardware/GPU",
+    "source_text": "Manufacturer label used across items: NVIDIA.",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4090"
+  },
+  {
+    "entity_name": "AMD",
+    "entity_type": "manufacturer",
+    "category": "Hardware/GPU",
+    "source_text": "Manufacturer label used across items: AMD.",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-Radeon-RX-7900-XTX"
+  }
+]
