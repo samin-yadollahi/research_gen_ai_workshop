@@ -1,0 +1,194 @@
+[
+  {
+    "id": "gpu:rtx_pro_6000_blackwell_server",
+    "entity_name": "RTX PRO 6000 Blackwell Server",
+    "entity_type": "gpu",
+    "category": "Hardware/GPU",
+    "source_text": "RTX PRO 6000 Blackwell Server — VRAM 96 GB, Bus 512 bit, Core 1590 MHz, Memory GDDR7, TDP 600 W.",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-6000-Blackwell-Server"
+  },
+  {
+    "id": "gpu:geforce_rtx_5090_d",
+    "entity_name": "GeForce RTX 5090 D",
+    "entity_type": "gpu",
+    "category": "Hardware/GPU",
+    "source_text": "GeForce RTX 5090 D — VRAM 32 GB, Bus 512 bit, Core 2017 MHz, Memory GDDR7, TDP 575 W.",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5090-D"
+  },
+  {
+    "id": "gpu:rtx_pro_5000_72_gb_blackwell",
+    "entity_name": "RTX PRO 5000 72 GB Blackwell",
+    "entity_type": "gpu",
+    "category": "Hardware/GPU",
+    "source_text": "RTX PRO 5000 72 GB Blackwell — VRAM 72 GB, Bus 384 bit, Core 1740 MHz, Memory GDDR7, TDP 300 W.",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-5000-72-GB-Blackwell"
+  },
+  {
+    "id": "gpu:geforce_rtx_5090",
+    "entity_name": "GeForce RTX 5090",
+    "entity_type": "gpu",
+    "category": "Hardware/GPU",
+    "source_text": "GeForce RTX 5090 — VRAM 32 GB, Bus 512 bit, Core 2017 MHz, Memory GDDR7, TDP 575 W.",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5090"
+  },
+  {
+    "id": "gpu:geforce_rtx_4090",
+    "entity_name": "GeForce RTX 4090",
+    "entity_type": "gpu",
+    "category": "Hardware/GPU",
+    "source_text": "GeForce RTX 4090 — VRAM 24 GB, Bus 384 bit, Core 2235 MHz, Memory GDDR6X, TDP 450 W.",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4090"
+  },
+  {
+    "id": "gpu:geforce_rtx_5080",
+    "entity_name": "GeForce RTX 5080",
+    "entity_type": "gpu",
+    "category": "Hardware/GPU",
+    "source_text": "GeForce RTX 5080 — VRAM 16 GB, Bus 256 bit, Core 2295 MHz, Memory GDDR7, TDP 360 W.",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5080"
+  },
+  {
+    "id": "gpu:geforce_rtx_4080",
+    "entity_name": "GeForce RTX 4080",
+    "entity_type": "gpu",
+    "category": "Hardware/GPU",
+    "source_text": "GeForce RTX 4080 — VRAM 16 GB, Bus 256 bit, Core 2205 MHz, Memory GDDR6X, TDP 320 W.",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4080"
+  },
+  {
+    "id": "gpu:geforce_rtx_4080_super",
+    "entity_name": "GeForce RTX 4080 SUPER",
+    "entity_type": "gpu",
+    "category": "Hardware/GPU",
+    "source_text": "GeForce RTX 4080 SUPER — VRAM 16 GB, Bus 256 bit, Core 2295 MHz, Memory GDDR6X, TDP 320 W.",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4080-SUPER"
+  },
+  {
+    "id": "gpu:rtx_pro_4500_blackwell",
+    "entity_name": "RTX PRO 4500 Blackwell",
+    "entity_type": "gpu",
+    "category": "Hardware/GPU",
+    "source_text": "RTX PRO 4500 Blackwell — VRAM 32 GB, Bus 256 bit, Core 1635 MHz, Memory GDDR7, TDP 200 W.",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-4500-Blackwell"
+  },
+  {
+    "id": "gpu:geforce_rtx_5070_ti",
+    "entity_name": "GeForce RTX 5070 Ti",
+    "entity_type": "gpu",
+    "category": "Hardware/GPU",
+    "source_text": "GeForce RTX 5070 Ti — VRAM 16 GB, Bus 256 bit, Core 2295 MHz, Memory GDDR7, TDP 300 W.",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5070-Ti"
+  },
+  {
+    "id": "gpu:geforce_rtx_4070_ti_super",
+    "entity_name": "GeForce RTX 4070 Ti SUPER",
+    "entity_type": "gpu",
+    "category": "Hardware/GPU",
+    "source_text": "GeForce RTX 4070 Ti SUPER — VRAM 16 GB, Bus 256 bit, Core 2340 MHz, Memory GDDR6X, TDP 285 W.",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4070-Ti-SUPER"
+  },
+  {
+    "id": "gpu:geforce_rtx_4070_ti",
+    "entity_name": "GeForce RTX 4070 Ti",
+    "entity_type": "gpu",
+    "category": "Hardware/GPU",
+    "source_text": "GeForce RTX 4070 Ti — VRAM 12 GB, Bus 192 bit, Core 2310 MHz, Memory GDDR6X, TDP 285 W.",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4070-Ti"
+  },
+  {
+    "id": "gpu:radeon_rx_7900_xtx",
+    "entity_name": "Radeon RX 7900 XTX",
+    "entity_type": "gpu",
+    "category": "Hardware/GPU",
+    "source_text": "Radeon RX 7900 XTX — VRAM 24 GB, Bus 384 bit, Core 1929 MHz, Memory GDDR6, TDP 355 W.",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-Radeon-RX-7900-XTX"
+  },
+  {
+    "id": "gpu:rtx_pro_5000_blackwell",
+    "entity_name": "RTX PRO 5000 Blackwell",
+    "entity_type": "gpu",
+    "category": "Hardware/GPU",
+    "source_text": "RTX PRO 5000 Blackwell — VRAM 48 GB, Bus 384 bit, Core 1740 MHz, Memory GDDR7, TDP 300 W.",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-5000-Blackwell"
+  },
+  {
+    "id": "gpu:geforce_rtx_4090_d",
+    "entity_name": "GeForce RTX 4090 D",
+    "entity_type": "gpu",
+    "category": "Hardware/GPU",
+    "source_text": "GeForce RTX 4090 D — VRAM 24 GB, Bus 384 bit, Core 2280 MHz, Memory GDDR6X, TDP 425 W.",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4090-D"
+  },
+  {
+    "id": "gpu:geforce_rtx_5090_d_v2",
+    "entity_name": "GeForce RTX 5090 D V2",
+    "entity_type": "gpu",
+    "category": "Hardware/GPU",
+    "source_text": "GeForce RTX 5090 D V2 — VRAM 24 GB, Bus 384 bit, Core 2017 MHz, Memory GDDR7, TDP 575 W.",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5090-D-V2"
+  },
+  {
+    "id": "mfg:nvidia",
+    "entity_name": "NVIDIA",
+    "entity_type": "manufacturer",
+    "category": "Hardware/GPU",
+    "source_text": "Manufacturer label used across items: NVIDIA.",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4090"
+  },
+  {
+    "id": "mfg:amd",
+    "entity_name": "AMD",
+    "entity_type": "manufacturer",
+    "category": "Hardware/GPU",
+    "source_text": "Manufacturer label used across items: AMD.",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-Radeon-RX-7900-XTX"
+  },
+  {
+    "id": "arch:blackwell",
+    "entity_name": "Blackwell",
+    "entity_type": "architecture",
+    "category": "Hardware/GPU",
+    "source_text": "Architecture field extracted for some GPUs: Blackwell.",
+    "source_url": "https://en.wikipedia.org/wiki/GeForce_RTX_50_series"
+  },
+  {
+    "id": "arch:ada_lovelace",
+    "entity_name": "Ada Lovelace",
+    "entity_type": "architecture",
+    "category": "Hardware/GPU",
+    "source_text": "Architecture field extracted for some GPUs: Ada Lovelace.",
+    "source_url": "https://en.wikipedia.org/wiki/GeForce_RTX_40_series"
+  },
+  {
+    "id": "arch:rdna_3",
+    "entity_name": "RDNA 3",
+    "entity_type": "architecture",
+    "category": "Hardware/GPU",
+    "source_text": "Architecture field extracted for some GPUs: RDNA 3.",
+    "source_url": "https://en.wikipedia.org/wiki/Radeon_RX_7000_series"
+  },
+  {
+    "id": "mem:gddr7",
+    "entity_name": "GDDR7",
+    "entity_type": "memory_type",
+    "category": "Hardware/GPU",
+    "source_text": "Memory type observed in specs: GDDR7.",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5090"
+  },
+  {
+    "id": "mem:gddr6x",
+    "entity_name": "GDDR6X",
+    "entity_type": "memory_type",
+    "category": "Hardware/GPU",
+    "source_text": "Memory type observed in specs: GDDR6X.",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4090"
+  },
+  {
+    "id": "mem:gddr6",
+    "entity_name": "GDDR6",
+    "entity_type": "memory_type",
+    "category": "Hardware/GPU",
+    "source_text": "Memory type observed in specs: GDDR6.",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-Radeon-RX-7900-XTX"
+  }
+]

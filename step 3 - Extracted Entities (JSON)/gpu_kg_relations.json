@@ -1,0 +1,386 @@
+[
+  {
+    "relation_id": "rel:000001",
+    "source_id": "mfg:nvidia",
+    "predicate": "produces",
+    "target_id": "gpu:rtx_pro_6000_blackwell_server",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-6000-Blackwell-Server",
+    "source_text": "Inferred manufacturer for RTX PRO 6000 Blackwell Server: NVIDIA."
+  },
+  {
+    "relation_id": "rel:000002",
+    "source_id": "gpu:rtx_pro_6000_blackwell_server",
+    "predicate": "hasArchitecture",
+    "target_id": "arch:blackwell",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-6000-Blackwell-Server",
+    "source_text": "Inferred architecture for RTX PRO 6000 Blackwell Server: Blackwell."
+  },
+  {
+    "relation_id": "rel:000003",
+    "source_id": "gpu:rtx_pro_6000_blackwell_server",
+    "predicate": "hasMemoryType",
+    "target_id": "mem:gddr7",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-6000-Blackwell-Server",
+    "source_text": "Memory type for RTX PRO 6000 Blackwell Server: GDDR7."
+  },
+  {
+    "relation_id": "rel:000004",
+    "source_id": "mfg:nvidia",
+    "predicate": "produces",
+    "target_id": "gpu:geforce_rtx_5090_d",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5090-D",
+    "source_text": "Inferred manufacturer for GeForce RTX 5090 D: NVIDIA."
+  },
+  {
+    "relation_id": "rel:000005",
+    "source_id": "gpu:geforce_rtx_5090_d",
+    "predicate": "hasArchitecture",
+    "target_id": "arch:blackwell",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5090-D",
+    "source_text": "Inferred architecture for GeForce RTX 5090 D: Blackwell."
+  },
+  {
+    "relation_id": "rel:000006",
+    "source_id": "gpu:geforce_rtx_5090_d",
+    "predicate": "hasMemoryType",
+    "target_id": "mem:gddr7",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5090-D",
+    "source_text": "Memory type for GeForce RTX 5090 D: GDDR7."
+  },
+  {
+    "relation_id": "rel:000007",
+    "source_id": "mfg:nvidia",
+    "predicate": "produces",
+    "target_id": "gpu:rtx_pro_5000_72_gb_blackwell",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-5000-72-GB-Blackwell",
+    "source_text": "Inferred manufacturer for RTX PRO 5000 72 GB Blackwell: NVIDIA."
+  },
+  {
+    "relation_id": "rel:000008",
+    "source_id": "gpu:rtx_pro_5000_72_gb_blackwell",
+    "predicate": "hasArchitecture",
+    "target_id": "arch:blackwell",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-5000-72-GB-Blackwell",
+    "source_text": "Inferred architecture for RTX PRO 5000 72 GB Blackwell: Blackwell."
+  },
+  {
+    "relation_id": "rel:000009",
+    "source_id": "gpu:rtx_pro_5000_72_gb_blackwell",
+    "predicate": "hasMemoryType",
+    "target_id": "mem:gddr7",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-5000-72-GB-Blackwell",
+    "source_text": "Memory type for RTX PRO 5000 72 GB Blackwell: GDDR7."
+  },
+  {
+    "relation_id": "rel:000010",
+    "source_id": "mfg:nvidia",
+    "predicate": "produces",
+    "target_id": "gpu:geforce_rtx_5090",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5090",
+    "source_text": "Inferred manufacturer for GeForce RTX 5090: NVIDIA."
+  },
+  {
+    "relation_id": "rel:000011",
+    "source_id": "gpu:geforce_rtx_5090",
+    "predicate": "hasArchitecture",
+    "target_id": "arch:blackwell",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5090",
+    "source_text": "Inferred architecture for GeForce RTX 5090: Blackwell."
+  },
+  {
+    "relation_id": "rel:000012",
+    "source_id": "gpu:geforce_rtx_5090",
+    "predicate": "hasMemoryType",
+    "target_id": "mem:gddr7",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5090",
+    "source_text": "Memory type for GeForce RTX 5090: GDDR7."
+  },
+  {
+    "relation_id": "rel:000013",
+    "source_id": "mfg:nvidia",
+    "predicate": "produces",
+    "target_id": "gpu:geforce_rtx_4090",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4090",
+    "source_text": "Inferred manufacturer for GeForce RTX 4090: NVIDIA."
+  },
+  {
+    "relation_id": "rel:000014",
+    "source_id": "gpu:geforce_rtx_4090",
+    "predicate": "hasArchitecture",
+    "target_id": "arch:ada_lovelace",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4090",
+    "source_text": "Inferred architecture for GeForce RTX 4090: Ada Lovelace."
+  },
+  {
+    "relation_id": "rel:000015",
+    "source_id": "gpu:geforce_rtx_4090",
+    "predicate": "hasMemoryType",
+    "target_id": "mem:gddr6x",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4090",
+    "source_text": "Memory type for GeForce RTX 4090: GDDR6X."
+  },
+  {
+    "relation_id": "rel:000016",
+    "source_id": "mfg:nvidia",
+    "predicate": "produces",
+    "target_id": "gpu:geforce_rtx_5080",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5080",
+    "source_text": "Inferred manufacturer for GeForce RTX 5080: NVIDIA."
+  },
+  {
+    "relation_id": "rel:000017",
+    "source_id": "gpu:geforce_rtx_5080",
+    "predicate": "hasArchitecture",
+    "target_id": "arch:blackwell",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5080",
+    "source_text": "Inferred architecture for GeForce RTX 5080: Blackwell."
+  },
+  {
+    "relation_id": "rel:000018",
+    "source_id": "gpu:geforce_rtx_5080",
+    "predicate": "hasMemoryType",
+    "target_id": "mem:gddr7",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5080",
+    "source_text": "Memory type for GeForce RTX 5080: GDDR7."
+  },
+  {
+    "relation_id": "rel:000019",
+    "source_id": "mfg:nvidia",
+    "predicate": "produces",
+    "target_id": "gpu:geforce_rtx_4080",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4080",
+    "source_text": "Inferred manufacturer for GeForce RTX 4080: NVIDIA."
+  },
+  {
+    "relation_id": "rel:000020",
+    "source_id": "gpu:geforce_rtx_4080",
+    "predicate": "hasArchitecture",
+    "target_id": "arch:ada_lovelace",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4080",
+    "source_text": "Inferred architecture for GeForce RTX 4080: Ada Lovelace."
+  },
+  {
+    "relation_id": "rel:000021",
+    "source_id": "gpu:geforce_rtx_4080",
+    "predicate": "hasMemoryType",
+    "target_id": "mem:gddr6x",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4080",
+    "source_text": "Memory type for GeForce RTX 4080: GDDR6X."
+  },
+  {
+    "relation_id": "rel:000022",
+    "source_id": "mfg:nvidia",
+    "predicate": "produces",
+    "target_id": "gpu:geforce_rtx_4080_super",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4080-SUPER",
+    "source_text": "Inferred manufacturer for GeForce RTX 4080 SUPER: NVIDIA."
+  },
+  {
+    "relation_id": "rel:000023",
+    "source_id": "gpu:geforce_rtx_4080_super",
+    "predicate": "hasArchitecture",
+    "target_id": "arch:ada_lovelace",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4080-SUPER",
+    "source_text": "Inferred architecture for GeForce RTX 4080 SUPER: Ada Lovelace."
+  },
+  {
+    "relation_id": "rel:000024",
+    "source_id": "gpu:geforce_rtx_4080_super",
+    "predicate": "hasMemoryType",
+    "target_id": "mem:gddr6x",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4080-SUPER",
+    "source_text": "Memory type for GeForce RTX 4080 SUPER: GDDR6X."
+  },
+  {
+    "relation_id": "rel:000025",
+    "source_id": "mfg:nvidia",
+    "predicate": "produces",
+    "target_id": "gpu:rtx_pro_4500_blackwell",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-4500-Blackwell",
+    "source_text": "Inferred manufacturer for RTX PRO 4500 Blackwell: NVIDIA."
+  },
+  {
+    "relation_id": "rel:000026",
+    "source_id": "gpu:rtx_pro_4500_blackwell",
+    "predicate": "hasArchitecture",
+    "target_id": "arch:blackwell",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-4500-Blackwell",
+    "source_text": "Inferred architecture for RTX PRO 4500 Blackwell: Blackwell."
+  },
+  {
+    "relation_id": "rel:000027",
+    "source_id": "gpu:rtx_pro_4500_blackwell",
+    "predicate": "hasMemoryType",
+    "target_id": "mem:gddr7",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-4500-Blackwell",
+    "source_text": "Memory type for RTX PRO 4500 Blackwell: GDDR7."
+  },
+  {
+    "relation_id": "rel:000028",
+    "source_id": "mfg:nvidia",
+    "predicate": "produces",
+    "target_id": "gpu:geforce_rtx_5070_ti",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5070-Ti",
+    "source_text": "Inferred manufacturer for GeForce RTX 5070 Ti: NVIDIA."
+  },
+  {
+    "relation_id": "rel:000029",
+    "source_id": "gpu:geforce_rtx_5070_ti",
+    "predicate": "hasArchitecture",
+    "target_id": "arch:blackwell",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5070-Ti",
+    "source_text": "Inferred architecture for GeForce RTX 5070 Ti: Blackwell."
+  },
+  {
+    "relation_id": "rel:000030",
+    "source_id": "gpu:geforce_rtx_5070_ti",
+    "predicate": "hasMemoryType",
+    "target_id": "mem:gddr7",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5070-Ti",
+    "source_text": "Memory type for GeForce RTX 5070 Ti: GDDR7."
+  },
+  {
+    "relation_id": "rel:000031",
+    "source_id": "mfg:nvidia",
+    "predicate": "produces",
+    "target_id": "gpu:geforce_rtx_4070_ti_super",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4070-Ti-SUPER",
+    "source_text": "Inferred manufacturer for GeForce RTX 4070 Ti SUPER: NVIDIA."
+  },
+  {
+    "relation_id": "rel:000032",
+    "source_id": "gpu:geforce_rtx_4070_ti_super",
+    "predicate": "hasArchitecture",
+    "target_id": "arch:ada_lovelace",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4070-Ti-SUPER",
+    "source_text": "Inferred architecture for GeForce RTX 4070 Ti SUPER: Ada Lovelace."
+  },
+  {
+    "relation_id": "rel:000033",
+    "source_id": "gpu:geforce_rtx_4070_ti_super",
+    "predicate": "hasMemoryType",
+    "target_id": "mem:gddr6x",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4070-Ti-SUPER",
+    "source_text": "Memory type for GeForce RTX 4070 Ti SUPER: GDDR6X."
+  },
+  {
+    "relation_id": "rel:000034",
+    "source_id": "mfg:nvidia",
+    "predicate": "produces",
+    "target_id": "gpu:geforce_rtx_4070_ti",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4070-Ti",
+    "source_text": "Inferred manufacturer for GeForce RTX 4070 Ti: NVIDIA."
+  },
+  {
+    "relation_id": "rel:000035",
+    "source_id": "gpu:geforce_rtx_4070_ti",
+    "predicate": "hasArchitecture",
+    "target_id": "arch:ada_lovelace",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4070-Ti",
+    "source_text": "Inferred architecture for GeForce RTX 4070 Ti: Ada Lovelace."
+  },
+  {
+    "relation_id": "rel:000036",
+    "source_id": "gpu:geforce_rtx_4070_ti",
+    "predicate": "hasMemoryType",
+    "target_id": "mem:gddr6x",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4070-Ti",
+    "source_text": "Memory type for GeForce RTX 4070 Ti: GDDR6X."
+  },
+  {
+    "relation_id": "rel:000037",
+    "source_id": "mfg:amd",
+    "predicate": "produces",
+    "target_id": "gpu:radeon_rx_7900_xtx",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-Radeon-RX-7900-XTX",
+    "source_text": "Inferred manufacturer for Radeon RX 7900 XTX: AMD."
+  },
+  {
+    "relation_id": "rel:000038",
+    "source_id": "gpu:radeon_rx_7900_xtx",
+    "predicate": "hasArchitecture",
+    "target_id": "arch:rdna_3",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-Radeon-RX-7900-XTX",
+    "source_text": "Inferred architecture for Radeon RX 7900 XTX: RDNA 3."
+  },
+  {
+    "relation_id": "rel:000039",
+    "source_id": "gpu:radeon_rx_7900_xtx",
+    "predicate": "hasMemoryType",
+    "target_id": "mem:gddr6",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-Radeon-RX-7900-XTX",
+    "source_text": "Memory type for Radeon RX 7900 XTX: GDDR6."
+  },
+  {
+    "relation_id": "rel:000040",
+    "source_id": "mfg:nvidia",
+    "predicate": "produces",
+    "target_id": "gpu:rtx_pro_5000_blackwell",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-5000-Blackwell",
+    "source_text": "Inferred manufacturer for RTX PRO 5000 Blackwell: NVIDIA."
+  },
+  {
+    "relation_id": "rel:000041",
+    "source_id": "gpu:rtx_pro_5000_blackwell",
+    "predicate": "hasArchitecture",
+    "target_id": "arch:blackwell",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-5000-Blackwell",
+    "source_text": "Inferred architecture for RTX PRO 5000 Blackwell: Blackwell."
+  },
+  {
+    "relation_id": "rel:000042",
+    "source_id": "gpu:rtx_pro_5000_blackwell",
+    "predicate": "hasMemoryType",
+    "target_id": "mem:gddr7",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-5000-Blackwell",
+    "source_text": "Memory type for RTX PRO 5000 Blackwell: GDDR7."
+  },
+  {
+    "relation_id": "rel:000043",
+    "source_id": "mfg:nvidia",
+    "predicate": "produces",
+    "target_id": "gpu:geforce_rtx_4090_d",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4090-D",
+    "source_text": "Inferred manufacturer for GeForce RTX 4090 D: NVIDIA."
+  },
+  {
+    "relation_id": "rel:000044",
+    "source_id": "gpu:geforce_rtx_4090_d",
+    "predicate": "hasArchitecture",
+    "target_id": "arch:ada_lovelace",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4090-D",
+    "source_text": "Inferred architecture for GeForce RTX 4090 D: Ada Lovelace."
+  },
+  {
+    "relation_id": "rel:000045",
+    "source_id": "gpu:geforce_rtx_4090_d",
+    "predicate": "hasMemoryType",
+    "target_id": "mem:gddr6x",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4090-D",
+    "source_text": "Memory type for GeForce RTX 4090 D: GDDR6X."
+  },
+  {
+    "relation_id": "rel:000046",
+    "source_id": "mfg:nvidia",
+    "predicate": "produces",
+    "target_id": "gpu:geforce_rtx_5090_d_v2",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5090-D-V2",
+    "source_text": "Inferred manufacturer for GeForce RTX 5090 D V2: NVIDIA."
+  },
+  {
+    "relation_id": "rel:000047",
+    "source_id": "gpu:geforce_rtx_5090_d_v2",
+    "predicate": "hasArchitecture",
+    "target_id": "arch:blackwell",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5090-D-V2",
+    "source_text": "Inferred architecture for GeForce RTX 5090 D V2: Blackwell."
+  },
+  {
+    "relation_id": "rel:000048",
+    "source_id": "gpu:geforce_rtx_5090_d_v2",
+    "predicate": "hasMemoryType",
+    "target_id": "mem:gddr7",
+    "source_url": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5090-D-V2",
+    "source_text": "Memory type for GeForce RTX 5090 D V2: GDDR7."
+  }
+]
