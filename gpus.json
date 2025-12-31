@@ -1,14 +1,14 @@
 {
   "collection": "gpu_metadata_wikipedia_enriched",
-  "generated_at_utc": "2025-12-31T09:19:16.662444+00:00",
-  "count": 26,
+  "generated_at_utc": "2025-12-31T09:27:19.470628+00:00",
+  "count": 16,
   "skipped_incomplete_specs": 4,
   "notes": {
     "specs_policy": "Items include only GPUs where specs.vram, specs.bus_width, specs.core_clock, specs.memory_type, specs.tdp are all present.",
     "non_wikipedia_crawl_depth_max_pages": 3,
     "tdp_policy": "TDP stored as plain value only (no description).",
     "baseline_vs_slug": "GeForce-RTX-3080-Ti",
-    "wikipedia_enabled": false
+    "wikipedia_enabled": true
   },
   "items": [
     {
@@ -22,11 +22,11 @@
         "memory_type": "GDDR7",
         "tdp": "600 W"
       },
-      "release_date": null,
+      "release_date": "September 20, 2018 ; 7 years ago ( 2018-09-20 )",
       "benchmark_scores": null,
       "sources": {
         "technical_city_vs": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-6000-Blackwell-Server",
-        "wikipedia": null
+        "wikipedia": "https://en.wikipedia.org/wiki/Nvidia_RTX"
       }
     },
     {
@@ -40,11 +40,11 @@
         "memory_type": "GDDR7",
         "tdp": "575 W"
       },
-      "release_date": null,
+      "release_date": "August 31, 1999 ; 26 years ago ( 1999-08-31 )",
       "benchmark_scores": null,
       "sources": {
         "technical_city_vs": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5090-D",
-        "wikipedia": null
+        "wikipedia": "https://en.wikipedia.org/wiki/GeForce"
       }
     },
     {
@@ -62,13 +62,13 @@
       "benchmark_scores": null,
       "sources": {
         "technical_city_vs": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-5000-72-GB-Blackwell",
-        "wikipedia": null
+        "wikipedia": "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
       }
     },
     {
       "gpu_name": "GeForce RTX 5090",
       "manufacturer": "NVIDIA",
-      "architecture": null,
+      "architecture": "Blackwell",
       "specs": {
         "vram": "32 GB",
         "bus_width": "512 bit",
@@ -76,17 +76,17 @@
         "memory_type": "GDDR7",
         "tdp": "575 W"
       },
-      "release_date": null,
+      "release_date": "2025-01-30",
       "benchmark_scores": null,
       "sources": {
         "technical_city_vs": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5090",
-        "wikipedia": null
+        "wikipedia": "https://en.wikipedia.org/wiki/GeForce_RTX_50_series"
       }
     },
     {
       "gpu_name": "GeForce RTX 4090",
       "manufacturer": "NVIDIA",
-      "architecture": null,
+      "architecture": "Ada Lovelace",
       "specs": {
         "vram": "24 GB",
         "bus_width": "384 bit",
@@ -94,17 +94,17 @@
         "memory_type": "GDDR6X",
         "tdp": "450 W"
       },
-      "release_date": null,
+      "release_date": "October 12, 2022 ; 3 years ago ( 2022-10-12 ) January 17, 2024 ; 23 months ago ( 2024-01-17 ) (Super refresh)",
       "benchmark_scores": null,
       "sources": {
         "technical_city_vs": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4090",
-        "wikipedia": null
+        "wikipedia": "https://en.wikipedia.org/wiki/GeForce_RTX_40_series"
       }
     },
     {
       "gpu_name": "GeForce RTX 5080",
       "manufacturer": "NVIDIA",
-      "architecture": null,
+      "architecture": "Blackwell",
       "specs": {
         "vram": "16 GB",
         "bus_width": "256 bit",
@@ -112,17 +112,17 @@
         "memory_type": "GDDR7",
         "tdp": "360 W"
       },
-      "release_date": null,
+      "release_date": "2025-01-30",
       "benchmark_scores": null,
       "sources": {
         "technical_city_vs": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5080",
-        "wikipedia": null
+        "wikipedia": "https://en.wikipedia.org/wiki/GeForce_RTX_50_series"
       }
     },
     {
       "gpu_name": "GeForce RTX 4080",
       "manufacturer": "NVIDIA",
-      "architecture": null,
+      "architecture": "Ada Lovelace",
       "specs": {
         "vram": "16 GB",
         "bus_width": "256 bit",
@@ -130,17 +130,17 @@
         "memory_type": "GDDR6X",
         "tdp": "320 W"
       },
-      "release_date": null,
+      "release_date": "October 12, 2022 ; 3 years ago ( 2022-10-12 ) January 17, 2024 ; 23 months ago ( 2024-01-17 ) (Super refresh)",
       "benchmark_scores": null,
       "sources": {
         "technical_city_vs": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4080",
-        "wikipedia": null
+        "wikipedia": "https://en.wikipedia.org/wiki/GeForce_RTX_40_series"
       }
     },
     {
       "gpu_name": "GeForce RTX 4080 SUPER",
       "manufacturer": "NVIDIA",
-      "architecture": null,
+      "architecture": "Ada Lovelace",
       "specs": {
         "vram": "16 GB",
         "bus_width": "256 bit",
@@ -148,11 +148,11 @@
         "memory_type": "GDDR6X",
         "tdp": "320 W"
       },
-      "release_date": null,
+      "release_date": "October 12, 2022 ; 3 years ago ( 2022-10-12 ) January 17, 2024 ; 23 months ago ( 2024-01-17 ) (Super refresh)",
       "benchmark_scores": null,
       "sources": {
         "technical_city_vs": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4080-SUPER",
-        "wikipedia": null
+        "wikipedia": "https://en.wikipedia.org/wiki/GeForce_RTX_40_series"
       }
     },
     {
@@ -170,13 +170,13 @@
       "benchmark_scores": null,
       "sources": {
         "technical_city_vs": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-4500-Blackwell",
-        "wikipedia": null
+        "wikipedia": "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
       }
     },
     {
       "gpu_name": "GeForce RTX 5070 Ti",
       "manufacturer": "NVIDIA",
-      "architecture": null,
+      "architecture": "Blackwell",
       "specs": {
         "vram": "16 GB",
         "bus_width": "256 bit",
@@ -184,17 +184,17 @@
         "memory_type": "GDDR7",
         "tdp": "300 W"
       },
-      "release_date": null,
+      "release_date": "2025-01-30",
       "benchmark_scores": null,
       "sources": {
         "technical_city_vs": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5070-Ti",
-        "wikipedia": null
+        "wikipedia": "https://en.wikipedia.org/wiki/GeForce_RTX_50_series"
       }
     },
     {
       "gpu_name": "GeForce RTX 4070 Ti SUPER",
       "manufacturer": "NVIDIA",
-      "architecture": null,
+      "architecture": "Ada Lovelace",
       "specs": {
         "vram": "16 GB",
         "bus_width": "256 bit",
@@ -202,17 +202,17 @@
         "memory_type": "GDDR6X",
         "tdp": "285 W"
       },
-      "release_date": null,
+      "release_date": "October 12, 2022 ; 3 years ago ( 2022-10-12 ) January 17, 2024 ; 23 months ago ( 2024-01-17 ) (Super refresh)",
       "benchmark_scores": null,
       "sources": {
         "technical_city_vs": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4070-Ti-SUPER",
-        "wikipedia": null
+        "wikipedia": "https://en.wikipedia.org/wiki/GeForce_RTX_40_series"
       }
     },
     {
       "gpu_name": "GeForce RTX 4070 Ti",
       "manufacturer": "NVIDIA",
-      "architecture": null,
+      "architecture": "Ada Lovelace",
       "specs": {
         "vram": "12 GB",
         "bus_width": "192 bit",
@@ -220,17 +220,17 @@
         "memory_type": "GDDR6X",
         "tdp": "285 W"
       },
-      "release_date": null,
+      "release_date": "October 12, 2022 ; 3 years ago ( 2022-10-12 ) January 17, 2024 ; 23 months ago ( 2024-01-17 ) (Super refresh)",
       "benchmark_scores": null,
       "sources": {
         "technical_city_vs": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4070-Ti",
-        "wikipedia": null
+        "wikipedia": "https://en.wikipedia.org/wiki/GeForce_RTX_40_series"
       }
     },
     {
       "gpu_name": "Radeon RX 7900 XTX",
       "manufacturer": "AMD",
-      "architecture": null,
+      "architecture": "RDNA 3",
       "specs": {
         "vram": "24 GB",
         "bus_width": "384 bit",
@@ -238,11 +238,11 @@
         "memory_type": "GDDR6",
         "tdp": "355 W"
       },
-      "release_date": null,
+      "release_date": "December 13, 2022 ; 3 years ago ( 2022-12-13 )",
       "benchmark_scores": null,
       "sources": {
         "technical_city_vs": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-Radeon-RX-7900-XTX",
-        "wikipedia": null
+        "wikipedia": "https://en.wikipedia.org/wiki/Radeon_RX_7000_series"
       }
     },
     {
@@ -260,13 +260,13 @@
       "benchmark_scores": null,
       "sources": {
         "technical_city_vs": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-5000-Blackwell",
-        "wikipedia": null
+        "wikipedia": "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
       }
     },
     {
       "gpu_name": "GeForce RTX 4090 D",
       "manufacturer": "NVIDIA",
-      "architecture": null,
+      "architecture": "Ada Lovelace",
       "specs": {
         "vram": "24 GB",
         "bus_width": "384 bit",
@@ -274,11 +274,11 @@
         "memory_type": "GDDR6X",
         "tdp": "425 W"
       },
-      "release_date": null,
+      "release_date": "October 12, 2022 ; 3 years ago ( 2022-10-12 ) January 17, 2024 ; 23 months ago ( 2024-01-17 ) (Super refresh)",
       "benchmark_scores": null,
       "sources": {
         "technical_city_vs": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4090-D",
-        "wikipedia": null
+        "wikipedia": "https://en.wikipedia.org/wiki/GeForce_RTX_40_series"
       }
     },
     {
@@ -296,187 +296,7 @@
       "benchmark_scores": null,
       "sources": {
         "technical_city_vs": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5090-D-V2",
-        "wikipedia": null
-      }
-    },
-    {
-      "gpu_name": "RTX 5000 Ada Generation",
-      "manufacturer": "NVIDIA",
-      "architecture": null,
-      "specs": {
-        "vram": "32 GB",
-        "bus_width": "256 bit",
-        "core_clock": "1155 MHz",
-        "memory_type": "GDDR6",
-        "tdp": "250 W"
-      },
-      "release_date": null,
-      "benchmark_scores": null,
-      "sources": {
-        "technical_city_vs": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-5000-Ada-Generation",
-        "wikipedia": null
-      }
-    },
-    {
-      "gpu_name": "GeForce RTX 4070 SUPER",
-      "manufacturer": "NVIDIA",
-      "architecture": null,
-      "specs": {
-        "vram": "12 GB",
-        "bus_width": "192 bit",
-        "core_clock": "1980 MHz",
-        "memory_type": "GDDR6X",
-        "tdp": "220 W"
-      },
-      "release_date": null,
-      "benchmark_scores": null,
-      "sources": {
-        "technical_city_vs": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4070-SUPER",
-        "wikipedia": null
-      }
-    },
-    {
-      "gpu_name": "GeForce RTX 3090 Ti",
-      "manufacturer": "NVIDIA",
-      "architecture": null,
-      "specs": {
-        "vram": "24 GB",
-        "bus_width": "384 bit",
-        "core_clock": "1560 MHz",
-        "memory_type": "GDDR6X",
-        "tdp": "450 W"
-      },
-      "release_date": null,
-      "benchmark_scores": null,
-      "sources": {
-        "technical_city_vs": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-3090-Ti",
-        "wikipedia": null
-      }
-    },
-    {
-      "gpu_name": "Radeon RX 7900 XT",
-      "manufacturer": "AMD",
-      "architecture": null,
-      "specs": {
-        "vram": "20 GB",
-        "bus_width": "320 bit",
-        "core_clock": "1387 MHz",
-        "memory_type": "GDDR6",
-        "tdp": "300 W"
-      },
-      "release_date": null,
-      "benchmark_scores": null,
-      "sources": {
-        "technical_city_vs": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-Radeon-RX-7900-XT",
-        "wikipedia": null
-      }
-    },
-    {
-      "gpu_name": "GeForce RTX 5070",
-      "manufacturer": "NVIDIA",
-      "architecture": null,
-      "specs": {
-        "vram": "12 GB",
-        "bus_width": "192 bit",
-        "core_clock": "2325 MHz",
-        "memory_type": "GDDR7",
-        "tdp": "250 W"
-      },
-      "release_date": null,
-      "benchmark_scores": null,
-      "sources": {
-        "technical_city_vs": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5070",
-        "wikipedia": null
-      }
-    },
-    {
-      "gpu_name": "GeForce RTX 5090 Mobile",
-      "manufacturer": "NVIDIA",
-      "architecture": null,
-      "specs": {
-        "vram": "24 GB",
-        "bus_width": "256 bit",
-        "core_clock": "990 MHz",
-        "memory_type": "GDDR7",
-        "tdp": "95 W"
-      },
-      "release_date": null,
-      "benchmark_scores": null,
-      "sources": {
-        "technical_city_vs": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5090-mobile",
-        "wikipedia": null
-      }
-    },
-    {
-      "gpu_name": "RTX 6000 Ada Generation",
-      "manufacturer": "NVIDIA",
-      "architecture": null,
-      "specs": {
-        "vram": "48 GB",
-        "bus_width": "384 bit",
-        "core_clock": "915 MHz",
-        "memory_type": "GDDR6",
-        "tdp": "300 W"
-      },
-      "release_date": null,
-      "benchmark_scores": null,
-      "sources": {
-        "technical_city_vs": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-6000-Ada-Generation",
-        "wikipedia": null
-      }
-    },
-    {
-      "gpu_name": "Radeon RX 6950 XT",
-      "manufacturer": "AMD",
-      "architecture": null,
-      "specs": {
-        "vram": "16 GB",
-        "bus_width": "256 bit",
-        "core_clock": "1925 MHz",
-        "memory_type": "GDDR6",
-        "tdp": "335 W"
-      },
-      "release_date": null,
-      "benchmark_scores": null,
-      "sources": {
-        "technical_city_vs": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-Radeon-RX-6950-XT",
-        "wikipedia": null
-      }
-    },
-    {
-      "gpu_name": "RTX 4500 Ada Generation",
-      "manufacturer": "NVIDIA",
-      "architecture": null,
-      "specs": {
-        "vram": "24 GB",
-        "bus_width": "192 bit",
-        "core_clock": "2070 MHz",
-        "memory_type": "GDDR6",
-        "tdp": "210 W"
-      },
-      "release_date": null,
-      "benchmark_scores": null,
-      "sources": {
-        "technical_city_vs": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-4500-Ada-Generation",
-        "wikipedia": null
-      }
-    },
-    {
-      "gpu_name": "Radeon AI PRO R9700",
-      "manufacturer": "AMD",
-      "architecture": null,
-      "specs": {
-        "vram": "32 GB",
-        "bus_width": "256 bit",
-        "core_clock": "1660 MHz",
-        "memory_type": "GDDR6",
-        "tdp": "300 W"
-      },
-      "release_date": null,
-      "benchmark_scores": null,
-      "sources": {
-        "technical_city_vs": "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-Radeon-AI-PRO-R9700",
-        "wikipedia": null
+        "wikipedia": "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
       }
     }
   ]
