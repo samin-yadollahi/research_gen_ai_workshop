@@ -1,22 +1,17 @@
 #!/usr/bin/env python3
 """
-TTL Knowledge Graph Visualizer (HTML-only)
+TTL Knowledge Graph Visualizer (HTML-only, prettier)
 
-What’s improved vs your current version:
-✅ HTML output only (no PNG, no matplotlib)
-✅ Node coloring by entity type (gpu / manufacturer / architecture / memory_type / Relation / other)
-✅ Better labels: uses rdfs:label when available; otherwise pretty local-name
-✅ Hierarchical layout option (manufacturer → gpu → architecture/memory_type) for cleaner structure
-✅ Physics tuned for nicer spacing + fewer overlaps
-✅ Better UX: search box, filter controls, hover tooltips, smooth edges, arrowheads
-✅ Hides clutter by default: relation nodes (ex:rel_*) and metadata predicates
+Fix included:
+- Removed net.show_buttons() because some PyVis versions store options as dict
+  and show_buttons() fails with: AttributeError: 'dict' object has no attribute 'configure'
+- Added "configure" panel directly inside set_options() so you still get UI controls.
 
-Dependencies (inside your venv):
+Dependencies (venv):
   pip install rdflib pyvis
 
 Run:
   python visualize_ttl.py --ttl gpu_kg.ttl --html gpu_kg_pretty.html
-Optional:
   python visualize_ttl.py --ttl gpu_kg.ttl --html gpu_kg_pretty.html --layout hierarchical
 """
 
@@ -25,7 +20,7 @@ from __future__ import annotations
 import argparse
 import re
 from pathlib import Path
-from typing import Dict, Optional, Set, Tuple
+from typing import Optional, Set, Tuple
 
 from rdflib import Graph, URIRef, Literal
 from rdflib.namespace import RDF, RDFS
@@ -49,11 +44,7 @@ def local_name(uri: str) -> str:
     return uri
 
 def pretty_local(local: str) -> str:
-    # ex:geforce_rtx_4090 -> GeForce Rtx 4090 (best-effort)
-    t = local.replace("_", " ").strip()
-    # Keep common acronyms uppercased
-    # But we avoid aggressive title-case for GPU names; still looks nicer than raw slugs.
-    return re.sub(r"\s+", " ", t)
+    return re.sub(r"\s+", " ", local.replace("_", " ").strip())
 
 def shorten(s: str, max_len: int = 36) -> str:
     s = clean_text(s)
@@ -80,7 +71,7 @@ def get_entity_type(g: Graph, node: URIRef, base_pred_local: str = "entityType")
             val = get_first_literal(g, node, p)
             if val:
                 return val
-    # Fallback to rdf:type local
+    # Fallback: rdf:type local name
     for o in g.objects(node, RDF.type):
         if isinstance(o, URIRef):
             return local_name(str(o))
@@ -168,7 +159,6 @@ def build_pyvis_network(
     rg = Graph()
     rg.parse(ttl_path, format="turtle")
 
-    # Network init
     net = Network(
         height="900px",
         width="100%",
@@ -178,12 +168,15 @@ def build_pyvis_network(
         notebook=False
     )
 
-    # Better physics + styling
-    # - repulsion reduces overlap
-    # - stabilization prevents jumpy final graph
+    # Configure UI panel + better defaults (works across PyVis versions)
     net.set_options(
         """
         var options = {
+          "configure": {
+            "enabled": true,
+            "filter": ["physics", "layout", "interaction", "nodes", "edges"],
+            "showButton": true
+          },
           "interaction": {
             "hover": true,
             "navigationButtons": true,
@@ -223,7 +216,6 @@ def build_pyvis_network(
         """
     )
 
-    # Color palette (fixed, readable, not random)
     colors = {
         "manufacturer": {"background": "#ffb703", "border": "#c77d00"},
         "gpu": {"background": "#219ebc", "border": "#0b6b85"},
@@ -233,13 +225,10 @@ def build_pyvis_network(
         "other": {"background": "#b5179e", "border": "#7209b7"},
     }
 
-    # Build nodes with labels + tooltips
+    # Nodes
     for n in nodes:
         node_uri = URIRef(n)
-        label = get_rdfs_label(rg, node_uri)
-        if not label:
-            label = pretty_local(local_name(n))
-
+        label = get_rdfs_label(rg, node_uri) or pretty_local(local_name(n))
         entity_type = get_entity_type(rg, node_uri) or "Thing"
         group = guess_node_group(entity_type)
 
@@ -250,9 +239,7 @@ def build_pyvis_network(
             f"<b>IRI:</b> {clean_text(n)}",
         ]
 
-        # Optional metadata
-        # If present, show category/sourceUrl
-        # (We don't depend on exact prefix; we search by local name.)
+        # Optional metadata fields if present
         for p in rg.predicates(node_uri, None):
             if isinstance(p, URIRef):
                 pl = local_name(str(p))
@@ -268,18 +255,12 @@ def build_pyvis_network(
             color=c,
         )
 
-    # Add edges
+    # Edges
     for s, o, pred in edges:
-        net.add_edge(
-            s,
-            o,
-            label=pred,
-            title=pred,
-        )
+        net.add_edge(s, o, label=pred, title=pred)
 
-    # Layout: hierarchical (nice for your KG) or physics
+    # Hierarchical layout toggle
     if layout == "hierarchical":
-        # Hierarchical is great for Manufacturer → GPU → (Architecture/Memory)
         net.set_options(
             """
             var options = {
@@ -297,9 +278,6 @@ def build_pyvis_network(
             """
         )
 
-    # Enable filter/search UI in PyVis (shows buttons)
-    net.show_buttons(filter_=["physics", "layout", "interaction", "nodes", "edges"])
-
     net.write_html(out_html)
     print(f"[OK] Saved improved HTML: {out_html}")
 
@@ -312,8 +290,12 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--ttl", required=True, help="Path to TTL file (e.g., gpu_kg.ttl)")
     ap.add_argument("--html", default="", help="Output HTML path (default: <ttl>.pretty.html)")
-    ap.add_argument("--layout", choices=["physics", "hierarchical"], default="physics",
-                    help="physics = forceAtlas2Based; hierarchical = LR tree-like layout")
+    ap.add_argument(
+        "--layout",
+        choices=["physics", "hierarchical"],
+        default="physics",
+        help="physics = forceAtlas2Based; hierarchical = LR tree-like layout"
+    )
     ap.add_argument("--label-max", type=int, default=40, help="Max node label length")
     ap.add_argument("--include-relation-nodes", action="store_true",
                     help="Include ex:rel_* relation nodes (usually clutter)")
