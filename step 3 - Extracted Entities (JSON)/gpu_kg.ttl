@@ -1,0 +1,675 @@
+@prefix ex: <http://example.org/gpu#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:rtx_pro_6000_blackwell_server rdf:type ex:gpu ;
+  rdfs:label "RTX PRO 6000 Blackwell Server" ;
+  ex:entityType "gpu" ;
+  ex:category "Hardware/GPU" ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-6000-Blackwell-Server" ;
+  ex:sourceText "RTX PRO 6000 Blackwell Server — VRAM 96 GB, Bus 512 bit, Core 1590 MHz, Memory GDDR7, TDP 600 W." ;
+  .
+
+ex:geforce_rtx_5090_d rdf:type ex:gpu ;
+  rdfs:label "GeForce RTX 5090 D" ;
+  ex:entityType "gpu" ;
+  ex:category "Hardware/GPU" ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5090-D" ;
+  ex:sourceText "GeForce RTX 5090 D — VRAM 32 GB, Bus 512 bit, Core 2017 MHz, Memory GDDR7, TDP 575 W." ;
+  .
+
+ex:rtx_pro_5000_72_gb_blackwell rdf:type ex:gpu ;
+  rdfs:label "RTX PRO 5000 72 GB Blackwell" ;
+  ex:entityType "gpu" ;
+  ex:category "Hardware/GPU" ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-5000-72-GB-Blackwell" ;
+  ex:sourceText "RTX PRO 5000 72 GB Blackwell — VRAM 72 GB, Bus 384 bit, Core 1740 MHz, Memory GDDR7, TDP 300 W." ;
+  .
+
+ex:geforce_rtx_5090 rdf:type ex:gpu ;
+  rdfs:label "GeForce RTX 5090" ;
+  ex:entityType "gpu" ;
+  ex:category "Hardware/GPU" ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5090" ;
+  ex:sourceText "GeForce RTX 5090 — VRAM 32 GB, Bus 512 bit, Core 2017 MHz, Memory GDDR7, TDP 575 W." ;
+  .
+
+ex:geforce_rtx_4090 rdf:type ex:gpu ;
+  rdfs:label "GeForce RTX 4090" ;
+  ex:entityType "gpu" ;
+  ex:category "Hardware/GPU" ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4090" ;
+  ex:sourceText "GeForce RTX 4090 — VRAM 24 GB, Bus 384 bit, Core 2235 MHz, Memory GDDR6X, TDP 450 W." ;
+  .
+
+ex:geforce_rtx_5080 rdf:type ex:gpu ;
+  rdfs:label "GeForce RTX 5080" ;
+  ex:entityType "gpu" ;
+  ex:category "Hardware/GPU" ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5080" ;
+  ex:sourceText "GeForce RTX 5080 — VRAM 16 GB, Bus 256 bit, Core 2295 MHz, Memory GDDR7, TDP 360 W." ;
+  .
+
+ex:geforce_rtx_4080 rdf:type ex:gpu ;
+  rdfs:label "GeForce RTX 4080" ;
+  ex:entityType "gpu" ;
+  ex:category "Hardware/GPU" ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4080" ;
+  ex:sourceText "GeForce RTX 4080 — VRAM 16 GB, Bus 256 bit, Core 2205 MHz, Memory GDDR6X, TDP 320 W." ;
+  .
+
+ex:geforce_rtx_4080_super rdf:type ex:gpu ;
+  rdfs:label "GeForce RTX 4080 SUPER" ;
+  ex:entityType "gpu" ;
+  ex:category "Hardware/GPU" ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4080-SUPER" ;
+  ex:sourceText "GeForce RTX 4080 SUPER — VRAM 16 GB, Bus 256 bit, Core 2295 MHz, Memory GDDR6X, TDP 320 W." ;
+  .
+
+ex:rtx_pro_4500_blackwell rdf:type ex:gpu ;
+  rdfs:label "RTX PRO 4500 Blackwell" ;
+  ex:entityType "gpu" ;
+  ex:category "Hardware/GPU" ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-4500-Blackwell" ;
+  ex:sourceText "RTX PRO 4500 Blackwell — VRAM 32 GB, Bus 256 bit, Core 1635 MHz, Memory GDDR7, TDP 200 W." ;
+  .
+
+ex:geforce_rtx_5070_ti rdf:type ex:gpu ;
+  rdfs:label "GeForce RTX 5070 Ti" ;
+  ex:entityType "gpu" ;
+  ex:category "Hardware/GPU" ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5070-Ti" ;
+  ex:sourceText "GeForce RTX 5070 Ti — VRAM 16 GB, Bus 256 bit, Core 2295 MHz, Memory GDDR7, TDP 300 W." ;
+  .
+
+ex:geforce_rtx_4070_ti_super rdf:type ex:gpu ;
+  rdfs:label "GeForce RTX 4070 Ti SUPER" ;
+  ex:entityType "gpu" ;
+  ex:category "Hardware/GPU" ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4070-Ti-SUPER" ;
+  ex:sourceText "GeForce RTX 4070 Ti SUPER — VRAM 16 GB, Bus 256 bit, Core 2340 MHz, Memory GDDR6X, TDP 285 W." ;
+  .
+
+ex:geforce_rtx_4070_ti rdf:type ex:gpu ;
+  rdfs:label "GeForce RTX 4070 Ti" ;
+  ex:entityType "gpu" ;
+  ex:category "Hardware/GPU" ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4070-Ti" ;
+  ex:sourceText "GeForce RTX 4070 Ti — VRAM 12 GB, Bus 192 bit, Core 2310 MHz, Memory GDDR6X, TDP 285 W." ;
+  .
+
+ex:radeon_rx_7900_xtx rdf:type ex:gpu ;
+  rdfs:label "Radeon RX 7900 XTX" ;
+  ex:entityType "gpu" ;
+  ex:category "Hardware/GPU" ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-Radeon-RX-7900-XTX" ;
+  ex:sourceText "Radeon RX 7900 XTX — VRAM 24 GB, Bus 384 bit, Core 1929 MHz, Memory GDDR6, TDP 355 W." ;
+  .
+
+ex:rtx_pro_5000_blackwell rdf:type ex:gpu ;
+  rdfs:label "RTX PRO 5000 Blackwell" ;
+  ex:entityType "gpu" ;
+  ex:category "Hardware/GPU" ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-5000-Blackwell" ;
+  ex:sourceText "RTX PRO 5000 Blackwell — VRAM 48 GB, Bus 384 bit, Core 1740 MHz, Memory GDDR7, TDP 300 W." ;
+  .
+
+ex:geforce_rtx_4090_d rdf:type ex:gpu ;
+  rdfs:label "GeForce RTX 4090 D" ;
+  ex:entityType "gpu" ;
+  ex:category "Hardware/GPU" ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4090-D" ;
+  ex:sourceText "GeForce RTX 4090 D — VRAM 24 GB, Bus 384 bit, Core 2280 MHz, Memory GDDR6X, TDP 425 W." ;
+  .
+
+ex:geforce_rtx_5090_d_v2 rdf:type ex:gpu ;
+  rdfs:label "GeForce RTX 5090 D V2" ;
+  ex:entityType "gpu" ;
+  ex:category "Hardware/GPU" ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5090-D-V2" ;
+  ex:sourceText "GeForce RTX 5090 D V2 — VRAM 24 GB, Bus 384 bit, Core 2017 MHz, Memory GDDR7, TDP 575 W." ;
+  .
+
+ex:nvidia rdf:type ex:manufacturer ;
+  rdfs:label "NVIDIA" ;
+  ex:entityType "manufacturer" ;
+  ex:category "Hardware/GPU" ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4090" ;
+  ex:sourceText "Manufacturer label used across items: NVIDIA." ;
+  .
+
+ex:amd rdf:type ex:manufacturer ;
+  rdfs:label "AMD" ;
+  ex:entityType "manufacturer" ;
+  ex:category "Hardware/GPU" ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-Radeon-RX-7900-XTX" ;
+  ex:sourceText "Manufacturer label used across items: AMD." ;
+  .
+
+ex:blackwell rdf:type ex:architecture ;
+  rdfs:label "Blackwell" ;
+  ex:entityType "architecture" ;
+  ex:category "Hardware/GPU" ;
+  ex:sourceUrl "https://en.wikipedia.org/wiki/GeForce_RTX_50_series" ;
+  ex:sourceText "Architecture field extracted for some GPUs: Blackwell." ;
+  .
+
+ex:ada_lovelace rdf:type ex:architecture ;
+  rdfs:label "Ada Lovelace" ;
+  ex:entityType "architecture" ;
+  ex:category "Hardware/GPU" ;
+  ex:sourceUrl "https://en.wikipedia.org/wiki/GeForce_RTX_40_series" ;
+  ex:sourceText "Architecture field extracted for some GPUs: Ada Lovelace." ;
+  .
+
+ex:rdna_3 rdf:type ex:architecture ;
+  rdfs:label "RDNA 3" ;
+  ex:entityType "architecture" ;
+  ex:category "Hardware/GPU" ;
+  ex:sourceUrl "https://en.wikipedia.org/wiki/Radeon_RX_7000_series" ;
+  ex:sourceText "Architecture field extracted for some GPUs: RDNA 3." ;
+  .
+
+ex:gddr7 rdf:type ex:memory_type ;
+  rdfs:label "GDDR7" ;
+  ex:entityType "memory_type" ;
+  ex:category "Hardware/GPU" ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5090" ;
+  ex:sourceText "Memory type observed in specs: GDDR7." ;
+  .
+
+ex:gddr6x rdf:type ex:memory_type ;
+  rdfs:label "GDDR6X" ;
+  ex:entityType "memory_type" ;
+  ex:category "Hardware/GPU" ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4090" ;
+  ex:sourceText "Memory type observed in specs: GDDR6X." ;
+  .
+
+ex:gddr6 rdf:type ex:memory_type ;
+  rdfs:label "GDDR6" ;
+  ex:entityType "memory_type" ;
+  ex:category "Hardware/GPU" ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-Radeon-RX-7900-XTX" ;
+  ex:sourceText "Memory type observed in specs: GDDR6." ;
+  .
+
+ex:rel_000001 rdf:type ex:Relation ;
+  ex:subject ex:nvidia ;
+  ex:predicate "produces" ;
+  ex:object ex:rtx_pro_6000_blackwell_server ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-6000-Blackwell-Server" ;
+  ex:sourceText "Inferred manufacturer for RTX PRO 6000 Blackwell Server: NVIDIA." ;
+  .
+
+ex:nvidia ex:produces ex:rtx_pro_6000_blackwell_server .
+
+ex:rel_000002 rdf:type ex:Relation ;
+  ex:subject ex:rtx_pro_6000_blackwell_server ;
+  ex:predicate "hasArchitecture" ;
+  ex:object ex:blackwell ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-6000-Blackwell-Server" ;
+  ex:sourceText "Inferred architecture for RTX PRO 6000 Blackwell Server: Blackwell." ;
+  .
+
+ex:rtx_pro_6000_blackwell_server ex:hasArchitecture ex:blackwell .
+
+ex:rel_000003 rdf:type ex:Relation ;
+  ex:subject ex:rtx_pro_6000_blackwell_server ;
+  ex:predicate "hasMemoryType" ;
+  ex:object ex:gddr7 ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-6000-Blackwell-Server" ;
+  ex:sourceText "Memory type for RTX PRO 6000 Blackwell Server: GDDR7." ;
+  .
+
+ex:rtx_pro_6000_blackwell_server ex:hasMemoryType ex:gddr7 .
+
+ex:rel_000004 rdf:type ex:Relation ;
+  ex:subject ex:nvidia ;
+  ex:predicate "produces" ;
+  ex:object ex:geforce_rtx_5090_d ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5090-D" ;
+  ex:sourceText "Inferred manufacturer for GeForce RTX 5090 D: NVIDIA." ;
+  .
+
+ex:nvidia ex:produces ex:geforce_rtx_5090_d .
+
+ex:rel_000005 rdf:type ex:Relation ;
+  ex:subject ex:geforce_rtx_5090_d ;
+  ex:predicate "hasArchitecture" ;
+  ex:object ex:blackwell ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5090-D" ;
+  ex:sourceText "Inferred architecture for GeForce RTX 5090 D: Blackwell." ;
+  .
+
+ex:geforce_rtx_5090_d ex:hasArchitecture ex:blackwell .
+
+ex:rel_000006 rdf:type ex:Relation ;
+  ex:subject ex:geforce_rtx_5090_d ;
+  ex:predicate "hasMemoryType" ;
+  ex:object ex:gddr7 ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5090-D" ;
+  ex:sourceText "Memory type for GeForce RTX 5090 D: GDDR7." ;
+  .
+
+ex:geforce_rtx_5090_d ex:hasMemoryType ex:gddr7 .
+
+ex:rel_000007 rdf:type ex:Relation ;
+  ex:subject ex:nvidia ;
+  ex:predicate "produces" ;
+  ex:object ex:rtx_pro_5000_72_gb_blackwell ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-5000-72-GB-Blackwell" ;
+  ex:sourceText "Inferred manufacturer for RTX PRO 5000 72 GB Blackwell: NVIDIA." ;
+  .
+
+ex:nvidia ex:produces ex:rtx_pro_5000_72_gb_blackwell .
+
+ex:rel_000008 rdf:type ex:Relation ;
+  ex:subject ex:rtx_pro_5000_72_gb_blackwell ;
+  ex:predicate "hasArchitecture" ;
+  ex:object ex:blackwell ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-5000-72-GB-Blackwell" ;
+  ex:sourceText "Inferred architecture for RTX PRO 5000 72 GB Blackwell: Blackwell." ;
+  .
+
+ex:rtx_pro_5000_72_gb_blackwell ex:hasArchitecture ex:blackwell .
+
+ex:rel_000009 rdf:type ex:Relation ;
+  ex:subject ex:rtx_pro_5000_72_gb_blackwell ;
+  ex:predicate "hasMemoryType" ;
+  ex:object ex:gddr7 ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-5000-72-GB-Blackwell" ;
+  ex:sourceText "Memory type for RTX PRO 5000 72 GB Blackwell: GDDR7." ;
+  .
+
+ex:rtx_pro_5000_72_gb_blackwell ex:hasMemoryType ex:gddr7 .
+
+ex:rel_000010 rdf:type ex:Relation ;
+  ex:subject ex:nvidia ;
+  ex:predicate "produces" ;
+  ex:object ex:geforce_rtx_5090 ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5090" ;
+  ex:sourceText "Inferred manufacturer for GeForce RTX 5090: NVIDIA." ;
+  .
+
+ex:nvidia ex:produces ex:geforce_rtx_5090 .
+
+ex:rel_000011 rdf:type ex:Relation ;
+  ex:subject ex:geforce_rtx_5090 ;
+  ex:predicate "hasArchitecture" ;
+  ex:object ex:blackwell ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5090" ;
+  ex:sourceText "Inferred architecture for GeForce RTX 5090: Blackwell." ;
+  .
+
+ex:geforce_rtx_5090 ex:hasArchitecture ex:blackwell .
+
+ex:rel_000012 rdf:type ex:Relation ;
+  ex:subject ex:geforce_rtx_5090 ;
+  ex:predicate "hasMemoryType" ;
+  ex:object ex:gddr7 ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5090" ;
+  ex:sourceText "Memory type for GeForce RTX 5090: GDDR7." ;
+  .
+
+ex:geforce_rtx_5090 ex:hasMemoryType ex:gddr7 .
+
+ex:rel_000013 rdf:type ex:Relation ;
+  ex:subject ex:nvidia ;
+  ex:predicate "produces" ;
+  ex:object ex:geforce_rtx_4090 ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4090" ;
+  ex:sourceText "Inferred manufacturer for GeForce RTX 4090: NVIDIA." ;
+  .
+
+ex:nvidia ex:produces ex:geforce_rtx_4090 .
+
+ex:rel_000014 rdf:type ex:Relation ;
+  ex:subject ex:geforce_rtx_4090 ;
+  ex:predicate "hasArchitecture" ;
+  ex:object ex:ada_lovelace ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4090" ;
+  ex:sourceText "Inferred architecture for GeForce RTX 4090: Ada Lovelace." ;
+  .
+
+ex:geforce_rtx_4090 ex:hasArchitecture ex:ada_lovelace .
+
+ex:rel_000015 rdf:type ex:Relation ;
+  ex:subject ex:geforce_rtx_4090 ;
+  ex:predicate "hasMemoryType" ;
+  ex:object ex:gddr6x ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4090" ;
+  ex:sourceText "Memory type for GeForce RTX 4090: GDDR6X." ;
+  .
+
+ex:geforce_rtx_4090 ex:hasMemoryType ex:gddr6x .
+
+ex:rel_000016 rdf:type ex:Relation ;
+  ex:subject ex:nvidia ;
+  ex:predicate "produces" ;
+  ex:object ex:geforce_rtx_5080 ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5080" ;
+  ex:sourceText "Inferred manufacturer for GeForce RTX 5080: NVIDIA." ;
+  .
+
+ex:nvidia ex:produces ex:geforce_rtx_5080 .
+
+ex:rel_000017 rdf:type ex:Relation ;
+  ex:subject ex:geforce_rtx_5080 ;
+  ex:predicate "hasArchitecture" ;
+  ex:object ex:blackwell ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5080" ;
+  ex:sourceText "Inferred architecture for GeForce RTX 5080: Blackwell." ;
+  .
+
+ex:geforce_rtx_5080 ex:hasArchitecture ex:blackwell .
+
+ex:rel_000018 rdf:type ex:Relation ;
+  ex:subject ex:geforce_rtx_5080 ;
+  ex:predicate "hasMemoryType" ;
+  ex:object ex:gddr7 ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5080" ;
+  ex:sourceText "Memory type for GeForce RTX 5080: GDDR7." ;
+  .
+
+ex:geforce_rtx_5080 ex:hasMemoryType ex:gddr7 .
+
+ex:rel_000019 rdf:type ex:Relation ;
+  ex:subject ex:nvidia ;
+  ex:predicate "produces" ;
+  ex:object ex:geforce_rtx_4080 ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4080" ;
+  ex:sourceText "Inferred manufacturer for GeForce RTX 4080: NVIDIA." ;
+  .
+
+ex:nvidia ex:produces ex:geforce_rtx_4080 .
+
+ex:rel_000020 rdf:type ex:Relation ;
+  ex:subject ex:geforce_rtx_4080 ;
+  ex:predicate "hasArchitecture" ;
+  ex:object ex:ada_lovelace ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4080" ;
+  ex:sourceText "Inferred architecture for GeForce RTX 4080: Ada Lovelace." ;
+  .
+
+ex:geforce_rtx_4080 ex:hasArchitecture ex:ada_lovelace .
+
+ex:rel_000021 rdf:type ex:Relation ;
+  ex:subject ex:geforce_rtx_4080 ;
+  ex:predicate "hasMemoryType" ;
+  ex:object ex:gddr6x ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4080" ;
+  ex:sourceText "Memory type for GeForce RTX 4080: GDDR6X." ;
+  .
+
+ex:geforce_rtx_4080 ex:hasMemoryType ex:gddr6x .
+
+ex:rel_000022 rdf:type ex:Relation ;
+  ex:subject ex:nvidia ;
+  ex:predicate "produces" ;
+  ex:object ex:geforce_rtx_4080_super ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4080-SUPER" ;
+  ex:sourceText "Inferred manufacturer for GeForce RTX 4080 SUPER: NVIDIA." ;
+  .
+
+ex:nvidia ex:produces ex:geforce_rtx_4080_super .
+
+ex:rel_000023 rdf:type ex:Relation ;
+  ex:subject ex:geforce_rtx_4080_super ;
+  ex:predicate "hasArchitecture" ;
+  ex:object ex:ada_lovelace ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4080-SUPER" ;
+  ex:sourceText "Inferred architecture for GeForce RTX 4080 SUPER: Ada Lovelace." ;
+  .
+
+ex:geforce_rtx_4080_super ex:hasArchitecture ex:ada_lovelace .
+
+ex:rel_000024 rdf:type ex:Relation ;
+  ex:subject ex:geforce_rtx_4080_super ;
+  ex:predicate "hasMemoryType" ;
+  ex:object ex:gddr6x ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4080-SUPER" ;
+  ex:sourceText "Memory type for GeForce RTX 4080 SUPER: GDDR6X." ;
+  .
+
+ex:geforce_rtx_4080_super ex:hasMemoryType ex:gddr6x .
+
+ex:rel_000025 rdf:type ex:Relation ;
+  ex:subject ex:nvidia ;
+  ex:predicate "produces" ;
+  ex:object ex:rtx_pro_4500_blackwell ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-4500-Blackwell" ;
+  ex:sourceText "Inferred manufacturer for RTX PRO 4500 Blackwell: NVIDIA." ;
+  .
+
+ex:nvidia ex:produces ex:rtx_pro_4500_blackwell .
+
+ex:rel_000026 rdf:type ex:Relation ;
+  ex:subject ex:rtx_pro_4500_blackwell ;
+  ex:predicate "hasArchitecture" ;
+  ex:object ex:blackwell ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-4500-Blackwell" ;
+  ex:sourceText "Inferred architecture for RTX PRO 4500 Blackwell: Blackwell." ;
+  .
+
+ex:rtx_pro_4500_blackwell ex:hasArchitecture ex:blackwell .
+
+ex:rel_000027 rdf:type ex:Relation ;
+  ex:subject ex:rtx_pro_4500_blackwell ;
+  ex:predicate "hasMemoryType" ;
+  ex:object ex:gddr7 ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-4500-Blackwell" ;
+  ex:sourceText "Memory type for RTX PRO 4500 Blackwell: GDDR7." ;
+  .
+
+ex:rtx_pro_4500_blackwell ex:hasMemoryType ex:gddr7 .
+
+ex:rel_000028 rdf:type ex:Relation ;
+  ex:subject ex:nvidia ;
+  ex:predicate "produces" ;
+  ex:object ex:geforce_rtx_5070_ti ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5070-Ti" ;
+  ex:sourceText "Inferred manufacturer for GeForce RTX 5070 Ti: NVIDIA." ;
+  .
+
+ex:nvidia ex:produces ex:geforce_rtx_5070_ti .
+
+ex:rel_000029 rdf:type ex:Relation ;
+  ex:subject ex:geforce_rtx_5070_ti ;
+  ex:predicate "hasArchitecture" ;
+  ex:object ex:blackwell ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5070-Ti" ;
+  ex:sourceText "Inferred architecture for GeForce RTX 5070 Ti: Blackwell." ;
+  .
+
+ex:geforce_rtx_5070_ti ex:hasArchitecture ex:blackwell .
+
+ex:rel_000030 rdf:type ex:Relation ;
+  ex:subject ex:geforce_rtx_5070_ti ;
+  ex:predicate "hasMemoryType" ;
+  ex:object ex:gddr7 ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5070-Ti" ;
+  ex:sourceText "Memory type for GeForce RTX 5070 Ti: GDDR7." ;
+  .
+
+ex:geforce_rtx_5070_ti ex:hasMemoryType ex:gddr7 .
+
+ex:rel_000031 rdf:type ex:Relation ;
+  ex:subject ex:nvidia ;
+  ex:predicate "produces" ;
+  ex:object ex:geforce_rtx_4070_ti_super ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4070-Ti-SUPER" ;
+  ex:sourceText "Inferred manufacturer for GeForce RTX 4070 Ti SUPER: NVIDIA." ;
+  .
+
+ex:nvidia ex:produces ex:geforce_rtx_4070_ti_super .
+
+ex:rel_000032 rdf:type ex:Relation ;
+  ex:subject ex:geforce_rtx_4070_ti_super ;
+  ex:predicate "hasArchitecture" ;
+  ex:object ex:ada_lovelace ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4070-Ti-SUPER" ;
+  ex:sourceText "Inferred architecture for GeForce RTX 4070 Ti SUPER: Ada Lovelace." ;
+  .
+
+ex:geforce_rtx_4070_ti_super ex:hasArchitecture ex:ada_lovelace .
+
+ex:rel_000033 rdf:type ex:Relation ;
+  ex:subject ex:geforce_rtx_4070_ti_super ;
+  ex:predicate "hasMemoryType" ;
+  ex:object ex:gddr6x ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4070-Ti-SUPER" ;
+  ex:sourceText "Memory type for GeForce RTX 4070 Ti SUPER: GDDR6X." ;
+  .
+
+ex:geforce_rtx_4070_ti_super ex:hasMemoryType ex:gddr6x .
+
+ex:rel_000034 rdf:type ex:Relation ;
+  ex:subject ex:nvidia ;
+  ex:predicate "produces" ;
+  ex:object ex:geforce_rtx_4070_ti ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4070-Ti" ;
+  ex:sourceText "Inferred manufacturer for GeForce RTX 4070 Ti: NVIDIA." ;
+  .
+
+ex:nvidia ex:produces ex:geforce_rtx_4070_ti .
+
+ex:rel_000035 rdf:type ex:Relation ;
+  ex:subject ex:geforce_rtx_4070_ti ;
+  ex:predicate "hasArchitecture" ;
+  ex:object ex:ada_lovelace ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4070-Ti" ;
+  ex:sourceText "Inferred architecture for GeForce RTX 4070 Ti: Ada Lovelace." ;
+  .
+
+ex:geforce_rtx_4070_ti ex:hasArchitecture ex:ada_lovelace .
+
+ex:rel_000036 rdf:type ex:Relation ;
+  ex:subject ex:geforce_rtx_4070_ti ;
+  ex:predicate "hasMemoryType" ;
+  ex:object ex:gddr6x ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4070-Ti" ;
+  ex:sourceText "Memory type for GeForce RTX 4070 Ti: GDDR6X." ;
+  .
+
+ex:geforce_rtx_4070_ti ex:hasMemoryType ex:gddr6x .
+
+ex:rel_000037 rdf:type ex:Relation ;
+  ex:subject ex:amd ;
+  ex:predicate "produces" ;
+  ex:object ex:radeon_rx_7900_xtx ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-Radeon-RX-7900-XTX" ;
+  ex:sourceText "Inferred manufacturer for Radeon RX 7900 XTX: AMD." ;
+  .
+
+ex:amd ex:produces ex:radeon_rx_7900_xtx .
+
+ex:rel_000038 rdf:type ex:Relation ;
+  ex:subject ex:radeon_rx_7900_xtx ;
+  ex:predicate "hasArchitecture" ;
+  ex:object ex:rdna_3 ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-Radeon-RX-7900-XTX" ;
+  ex:sourceText "Inferred architecture for Radeon RX 7900 XTX: RDNA 3." ;
+  .
+
+ex:radeon_rx_7900_xtx ex:hasArchitecture ex:rdna_3 .
+
+ex:rel_000039 rdf:type ex:Relation ;
+  ex:subject ex:radeon_rx_7900_xtx ;
+  ex:predicate "hasMemoryType" ;
+  ex:object ex:gddr6 ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-Radeon-RX-7900-XTX" ;
+  ex:sourceText "Memory type for Radeon RX 7900 XTX: GDDR6." ;
+  .
+
+ex:radeon_rx_7900_xtx ex:hasMemoryType ex:gddr6 .
+
+ex:rel_000040 rdf:type ex:Relation ;
+  ex:subject ex:nvidia ;
+  ex:predicate "produces" ;
+  ex:object ex:rtx_pro_5000_blackwell ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-5000-Blackwell" ;
+  ex:sourceText "Inferred manufacturer for RTX PRO 5000 Blackwell: NVIDIA." ;
+  .
+
+ex:nvidia ex:produces ex:rtx_pro_5000_blackwell .
+
+ex:rel_000041 rdf:type ex:Relation ;
+  ex:subject ex:rtx_pro_5000_blackwell ;
+  ex:predicate "hasArchitecture" ;
+  ex:object ex:blackwell ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-5000-Blackwell" ;
+  ex:sourceText "Inferred architecture for RTX PRO 5000 Blackwell: Blackwell." ;
+  .
+
+ex:rtx_pro_5000_blackwell ex:hasArchitecture ex:blackwell .
+
+ex:rel_000042 rdf:type ex:Relation ;
+  ex:subject ex:rtx_pro_5000_blackwell ;
+  ex:predicate "hasMemoryType" ;
+  ex:object ex:gddr7 ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-RTX-PRO-5000-Blackwell" ;
+  ex:sourceText "Memory type for RTX PRO 5000 Blackwell: GDDR7." ;
+  .
+
+ex:rtx_pro_5000_blackwell ex:hasMemoryType ex:gddr7 .
+
+ex:rel_000043 rdf:type ex:Relation ;
+  ex:subject ex:nvidia ;
+  ex:predicate "produces" ;
+  ex:object ex:geforce_rtx_4090_d ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4090-D" ;
+  ex:sourceText "Inferred manufacturer for GeForce RTX 4090 D: NVIDIA." ;
+  .
+
+ex:nvidia ex:produces ex:geforce_rtx_4090_d .
+
+ex:rel_000044 rdf:type ex:Relation ;
+  ex:subject ex:geforce_rtx_4090_d ;
+  ex:predicate "hasArchitecture" ;
+  ex:object ex:ada_lovelace ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4090-D" ;
+  ex:sourceText "Inferred architecture for GeForce RTX 4090 D: Ada Lovelace." ;
+  .
+
+ex:geforce_rtx_4090_d ex:hasArchitecture ex:ada_lovelace .
+
+ex:rel_000045 rdf:type ex:Relation ;
+  ex:subject ex:geforce_rtx_4090_d ;
+  ex:predicate "hasMemoryType" ;
+  ex:object ex:gddr6x ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-4090-D" ;
+  ex:sourceText "Memory type for GeForce RTX 4090 D: GDDR6X." ;
+  .
+
+ex:geforce_rtx_4090_d ex:hasMemoryType ex:gddr6x .
+
+ex:rel_000046 rdf:type ex:Relation ;
+  ex:subject ex:nvidia ;
+  ex:predicate "produces" ;
+  ex:object ex:geforce_rtx_5090_d_v2 ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5090-D-V2" ;
+  ex:sourceText "Inferred manufacturer for GeForce RTX 5090 D V2: NVIDIA." ;
+  .
+
+ex:nvidia ex:produces ex:geforce_rtx_5090_d_v2 .
+
+ex:rel_000047 rdf:type ex:Relation ;
+  ex:subject ex:geforce_rtx_5090_d_v2 ;
+  ex:predicate "hasArchitecture" ;
+  ex:object ex:blackwell ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5090-D-V2" ;
+  ex:sourceText "Inferred architecture for GeForce RTX 5090 D V2: Blackwell." ;
+  .
+
+ex:geforce_rtx_5090_d_v2 ex:hasArchitecture ex:blackwell .
+
+ex:rel_000048 rdf:type ex:Relation ;
+  ex:subject ex:geforce_rtx_5090_d_v2 ;
+  ex:predicate "hasMemoryType" ;
+  ex:object ex:gddr7 ;
+  ex:sourceUrl "https://technical.city/en/video/GeForce-RTX-3080-Ti-vs-GeForce-RTX-5090-D-V2" ;
+  ex:sourceText "Memory type for GeForce RTX 5090 D V2: GDDR7." ;
+  .
+
+ex:geforce_rtx_5090_d_v2 ex:hasMemoryType ex:gddr7 .
