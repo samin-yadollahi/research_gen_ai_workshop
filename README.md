@@ -1,3 +1,3 @@
-# Google Doc.
+# From Research Modeling to Software Artifacts: A Lifecycle-Aware Workshop on Generative Al
 
-[google doc.](https://docs.google.com/document/d/13iIpJRmrPPMN-7_tLD2wPgLjOY8Ap5ZO5xuI7RCWFss/edit?usp=sharing)
+[Workshop repo](https://github.com/ShirazU-AI4RSE/WinterSchool-Docs)
